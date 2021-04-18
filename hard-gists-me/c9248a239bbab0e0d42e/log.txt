@@ -1,0 +1,2 @@
+Usage:
+python snippet.py <data_dir>

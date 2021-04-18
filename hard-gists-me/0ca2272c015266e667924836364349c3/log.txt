@@ -1,0 +1,4 @@
+usage: snippet.py [-h] [-c <client_id>] [-a <access_token>] [-r <aws_region>]
+                  [-p <aws_pool_id>]
+                  <id_token>
+snippet.py: error: too few arguments

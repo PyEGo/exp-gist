@@ -1,0 +1,4 @@
+usage: snippet.py [-h] [--num_clusters NUM_CLUSTERS] [--output OUTPUT]
+                  [--tol TOL] [--engine {original,sklearn,sklearn-mini}]
+                  file_list [file_list ...]
+snippet.py: error: too few arguments

@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "snippet.py", line 43, in <module>
+    db.unicorns.insert({'name': 'Aurora', 'gender': 'f', 'weight': 450})
+  File "/usr/local/lib/python2.7/site-packages/pymongo/collection.py", line 3294, in insert
+    check_keys, manipulate, write_concern)
+  File "/usr/local/lib/python2.7/site-packages/pymongo/collection.py", line 615, in _insert
+    bypass_doc_val, session)
+  File "/usr/local/lib/python2.7/site-packages/pymongo/collection.py", line 603, in _insert_one
+    acknowledged, _insert_command, session)
+  File "/usr/local/lib/python2.7/site-packages/pymongo/mongo_client.py", line 1497, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/usr/local/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/usr/local/lib/python2.7/site-packages/pymongo/mongo_client.py", line 1829, in _tmp_session
+    s = self._ensure_session(session)
+  File "/usr/local/lib/python2.7/site-packages/pymongo/mongo_client.py", line 1816, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib/python2.7/site-packages/pymongo/mongo_client.py", line 1766, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib/python2.7/site-packages/pymongo/mongo_client.py", line 1802, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib/python2.7/site-packages/pymongo/topology.py", line 488, in get_server_session
+    None)
+  File "/usr/local/lib/python2.7/site-packages/pymongo/topology.py", line 217, in _select_servers_loop
+    (self._error_message(selector), timeout, self.description))
+pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [Errno 111] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 5f829ef63480e57828334ea6, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused',)>]>

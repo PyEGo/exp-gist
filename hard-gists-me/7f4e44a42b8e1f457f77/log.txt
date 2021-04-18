@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 8, in <module>
+    from PyQt4.QtGui import (QMainWindow, QApplication, QDockWidget, QWidget,
+ImportError: No module named PyQt4.QtGui

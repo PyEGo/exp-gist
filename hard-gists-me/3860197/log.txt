@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "snippet.py", line 61, in <module>
+    main(fnames)
+  File "snippet.py", line 45, in main
+    y_test, probas = read(fname)
+  File "snippet.py", line 15, in read
+    with open(fname, 'r') as f:
+IOError: [Errno 2] No such file or directory: 'file1.txt'

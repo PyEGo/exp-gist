@@ -1,0 +1,7 @@
+Warning: device does not exist /dev/video2
+<open file '/dev/video2', mode 'wr' at 0x7f6865c5bf60>
+get capabilities result
+Traceback (most recent call last):
+  File "snippet.py", line 61, in <module>
+    print "get capabilities result", (fcntl.ioctl(device, VIDIOC_QUERYCAP, capability))
+IOError: [Errno 25] Inappropriate ioctl for device

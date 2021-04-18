@@ -1,0 +1,50 @@
+WARNING:tensorflow:From snippet.py:41: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+WARNING:tensorflow:From snippet.py:46: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+WARNING:tensorflow:From /usr/local/lib/python2.7/site-packages/tensorflow/python/util/tf_should_use.py:193: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+WARNING:tensorflow:From snippet.py:73: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From snippet.py:30: The name tf.OptimizerOptions is deprecated. Please use tf.compat.v1.OptimizerOptions instead.
+
+WARNING:tensorflow:From snippet.py:31: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+2020-10-11 15:16:36.497775: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2020-10-11 15:16:36.521277: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3600000000 Hz
+2020-10-11 15:16:36.522139: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x38f84e0 executing computations on platform Host. Devices:
+2020-10-11 15:16:36.522178: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-10-11 15:16:56.393898: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+WARNING:tensorflow:From snippet.py:100: The name tf.train.Server is deprecated. Please use tf.distribute.Server instead.
+
+WARNING:tensorflow:From snippet.py:30: The name tf.OptimizerOptions is deprecated. Please use tf.compat.v1.OptimizerOptions instead.
+
+WARNING:tensorflow:From snippet.py:31: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From snippet.py:32: The name tf.GraphOptions is deprecated. Please use tf.compat.v1.GraphOptions instead.
+
+2020-10-11 15:16:57.723280: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2020-10-11 15:16:57.757587: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3600000000 Hz
+2020-10-11 15:16:57.758256: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x47d1400 executing computations on platform Host. Devices:
+2020-10-11 15:16:57.758297: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-10-11 15:16:57.761271: I tensorflow/core/distributed_runtime/rpc/grpc_channel.cc:250] Initialize GrpcChannelCache for job worker -> {0 -> localhost:12222, 1 -> 127.0.0.1:12223}
+2020-10-11 15:16:57.763232: I tensorflow/core/distributed_runtime/rpc/grpc_server_lib.cc:365] Started server with target: grpc://localhost:12222
+WARNING:tensorflow:From snippet.py:100: The name tf.train.Server is deprecated. Please use tf.distribute.Server instead.
+
+WARNING:tensorflow:From snippet.py:30: The name tf.OptimizerOptions is deprecated. Please use tf.compat.v1.OptimizerOptions instead.
+
+WARNING:tensorflow:From snippet.py:31: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From snippet.py:32: The name tf.GraphOptions is deprecated. Please use tf.compat.v1.GraphOptions instead.
+
+2020-10-11 15:16:57.774023: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2020-10-11 15:16:57.790811: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3600000000 Hz
+2020-10-11 15:16:57.791589: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4457530 executing computations on platform Host. Devices:
+2020-10-11 15:16:57.791639: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-10-11 15:16:57.793333: I tensorflow/core/distributed_runtime/rpc/grpc_channel.cc:250] Initialize GrpcChannelCache for job worker -> {0 -> 127.0.0.1:12222, 1 -> localhost:12223}
+2020-10-11 15:16:57.795959: I tensorflow/core/distributed_runtime/rpc/grpc_server_lib.cc:365] Started server with target: grpc://localhost:12223
+2020-10-11 15:17:19.636743: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+Adding data in 100 MB chunks
+Local rate:       4966.92 MB per second
+Distributed rate: 429.02 MB per second

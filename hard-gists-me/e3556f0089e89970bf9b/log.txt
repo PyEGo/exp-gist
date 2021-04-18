@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "snippet.py", line 2, in <module>
+    import chainer
+  File "/usr/local/lib/python2.7/site-packages/chainer/__init__.py", line 10, in <module>
+    from chainer import backends  # NOQA
+  File "/usr/local/lib/python2.7/site-packages/chainer/backends/__init__.py", line 1, in <module>
+    from chainer.backends import cuda  # NOQA
+  File "/usr/local/lib/python2.7/site-packages/chainer/backends/cuda.py", line 77
+    def shape(self) -> types.Shape:
+                    ^
+SyntaxError: invalid syntax

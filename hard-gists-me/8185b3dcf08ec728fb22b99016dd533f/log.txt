@@ -1,0 +1,14 @@
+WARNING:tensorflow:From snippet.py:58: The name tf.python_io.TFRecordWriter is deprecated. Please use tf.io.TFRecordWriter instead.
+
+WARNING:tensorflow:From snippet.py:94: tf_record_iterator (from tensorflow.python.lib.io.tf_record) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use eager execution and: 
+`tf.data.TFRecordDataset(path)`
+Serializing 10 examples into test1.tfrecords
+Writing test1.tfrecords done!
+[-1.13312302 -0.95463682  0.73798956 -0.57425261  1.90751707]
+[-1.13312304 -0.95463681  0.73798954 -0.57425261  1.90751708]
+[0.67362166]
+[0.67362165]
+Serializing 100 examples into test2.tfrecords
+Writing test2.tfrecords done!

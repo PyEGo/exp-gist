@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 1, in <module>
+    from sklearn.base import BaseEstimator, Clone
+ImportError: cannot import name Clone

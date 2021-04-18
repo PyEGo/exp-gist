@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "snippet.py", line 4, in <module>
+    import dask.array as da
+  File "/usr/local/lib/python2.7/site-packages/dask/array/__init__.py", line 62, in <module>
+    raise ImportError(str(e) + '\n\n' + msg)
+ImportError: No module named toolz
+
+Dask array requirements are not installed.
+
+Please either conda or pip install as follows:
+
+  conda install dask                 # either conda install
+  pip install dask[array] --upgrade  # or pip install

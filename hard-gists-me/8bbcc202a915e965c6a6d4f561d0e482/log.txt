@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 14, in <module>
+    import geodesy.sphere as geo
+ImportError: No module named geodesy.sphere

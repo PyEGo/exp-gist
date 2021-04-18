@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "snippet.py", line 145, in <module>
+    main()
+  File "snippet.py", line 139, in main
+    application.pubsub = start_pubsub_thread()
+  File "snippet.py", line 118, in start_pubsub_thread
+    redis_db=options.redis_db
+  File "snippet.py", line 39, in __init__
+    self._init_redis()
+  File "snippet.py", line 44, in _init_redis
+    self.pubsub.subscribe(self.pubsub_channel)
+  File "/usr/local/lib/python2.7/site-packages/redis/client.py", line 3580, in subscribe
+    ret_val = self.execute_command('SUBSCRIBE', *iterkeys(new_channels))
+  File "/usr/local/lib/python2.7/site-packages/redis/client.py", line 3468, in execute_command
+    self.shard_hint
+  File "/usr/local/lib/python2.7/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/usr/local/lib/python2.7/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 99 connecting to localhost:6379. Cannot assign requested address.

@@ -1,0 +1,12 @@
+FROM python:2.7.13
+
+LABEL maintainer="otc@gmail.com"
+
+# install packages
+RUN apt-get update
+RUN pip install -U pip
+RUN pip install graphql-core
+RUN pip install graphene
+
+ADD snippet.py snippet.py
+CMD python snippet.py

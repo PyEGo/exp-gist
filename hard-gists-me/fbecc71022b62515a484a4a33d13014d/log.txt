@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "snippet.py", line 85, in <module>
+    class AppModel(models.Model):
+  File "snippet.py", line 89, in AppModel
+    is_void = models.BooleanField(default=False)
+  File "/usr/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 996, in __init__
+    super(BooleanField, self).__init__(*args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 172, in __init__
+    self.db_tablespace = db_tablespace or settings.DEFAULT_INDEX_TABLESPACE
+  File "/usr/local/lib/python2.7/site-packages/django/conf/__init__.py", line 56, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/site-packages/django/conf/__init__.py", line 39, in _setup
+    % (desc, ENVIRONMENT_VARIABLE))
+django.core.exceptions.ImproperlyConfigured: Requested setting DEFAULT_INDEX_TABLESPACE, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.

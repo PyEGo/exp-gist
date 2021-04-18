@@ -1,0 +1,21 @@
+FROM python:2.7.13
+COPY snippet.py snippet.py
+RUN ["apt-get","update"]
+RUN ["pip","install","six"]
+RUN ["pip","install","pytest"]
+RUN ["pip","install","py"]
+RUN ["pip","install","requests"]
+RUN ["apt-get","install","-y","git"]
+RUN ["apt-get","install","-y","curl"]
+RUN ["apt-get","install","-y","wget"]
+RUN ["apt-get","install","-y","libpq-dev"]
+RUN ["pip","install","numpy"]
+RUN ["apt-get","install","-y","libjpeg-dev"]
+RUN ["apt-get","install","-y","unzip"]
+RUN ["apt-get","install","-y","cmake"]
+RUN ["pip","install","scipy"]
+RUN ["apt-get","install","-y","libboost-all-dev"]
+RUN ["apt-get","install","-y","libav-tools"]
+RUN ["pip","install","pyglet"]
+CMD ["python","snippet.py"]
+

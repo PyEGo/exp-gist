@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "snippet.py", line 37, in <module>
+    class YoutubeUrlField(models.URLField):
+  File "snippet.py", line 38, in YoutubeUrlField
+    __metaclass__ = models.SubfieldBase
+AttributeError: 'module' object has no attribute 'SubfieldBase'

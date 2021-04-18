@@ -1,0 +1,2 @@
+usage: snippet.py [-h] [--strip_width STRIP_WIDTH] input_image output_image
+snippet.py: error: too few arguments

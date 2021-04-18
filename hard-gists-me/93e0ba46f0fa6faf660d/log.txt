@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 6, in <module>
+    from mesos.native import MesosSchedulerDriver
+ImportError: No module named native

@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "snippet.py", line 7, in <module>
+    from django.db.migrations.autodetector import MigrationAutodetector
+  File "/usr/local/lib/python2.7/site-packages/django/db/migrations/autodetector.py", line 13, in <module>
+    from django.db.migrations.questioner import MigrationQuestioner
+  File "/usr/local/lib/python2.7/site-packages/django/db/migrations/questioner.py", line 12, in <module>
+    from .loader import MigrationLoader
+  File "/usr/local/lib/python2.7/site-packages/django/db/migrations/loader.py", line 10, in <module>
+    from django.db.migrations.recorder import MigrationRecorder
+  File "/usr/local/lib/python2.7/site-packages/django/db/migrations/recorder.py", line 12, in <module>
+    class MigrationRecorder(object):
+  File "/usr/local/lib/python2.7/site-packages/django/db/migrations/recorder.py", line 26, in MigrationRecorder
+    class Migration(models.Model):
+  File "/usr/local/lib/python2.7/site-packages/django/db/migrations/recorder.py", line 27, in Migration
+    app = models.CharField(max_length=255)
+  File "/usr/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 1061, in __init__
+    super(CharField, self).__init__(*args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 172, in __init__
+    self.db_tablespace = db_tablespace or settings.DEFAULT_INDEX_TABLESPACE
+  File "/usr/local/lib/python2.7/site-packages/django/conf/__init__.py", line 56, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/site-packages/django/conf/__init__.py", line 39, in _setup
+    % (desc, ENVIRONMENT_VARIABLE))
+django.core.exceptions.ImproperlyConfigured: Requested setting DEFAULT_INDEX_TABLESPACE, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.

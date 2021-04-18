@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 38, in <module>
+    from coinbase_passwords import *
+ImportError: No module named coinbase_passwords

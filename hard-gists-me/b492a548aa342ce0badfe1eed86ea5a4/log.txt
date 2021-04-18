@@ -1,0 +1,28 @@
+WARNING:tensorflow:From snippet.py:156: The name tf.app.run is deprecated. Please use tf.compat.v1.app.run instead.
+
+Traceback (most recent call last):
+  File "snippet.py", line 156, in <module>
+    tf.app.run()
+  File "/usr/local/lib/python2.7/site-packages/tensorflow/python/platform/app.py", line 40, in run
+    _run(main=main, argv=argv, flags_parser=_parse_flags_tolerate_undef)
+  File "/usr/local/lib/python2.7/site-packages/absl/app.py", line 300, in run
+    _run_main(main, args)
+  File "/usr/local/lib/python2.7/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "snippet.py", line 137, in main
+    x_train, y_train = load_csv(filename=IRIS_TRAINING)
+  File "snippet.py", line 14, in load_csv
+    file = pd.read_csv(filename, header=0)
+  File "/usr/local/lib/python2.7/site-packages/pandas/io/parsers.py", line 702, in parser_f
+    return _read(filepath_or_buffer, kwds)
+  File "/usr/local/lib/python2.7/site-packages/pandas/io/parsers.py", line 429, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/usr/local/lib/python2.7/site-packages/pandas/io/parsers.py", line 895, in __init__
+    self._make_engine(self.engine)
+  File "/usr/local/lib/python2.7/site-packages/pandas/io/parsers.py", line 1122, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/usr/local/lib/python2.7/site-packages/pandas/io/parsers.py", line 1853, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 387, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 705, in pandas._libs.parsers.TextReader._setup_parser_source
+IOError: [Errno 2] File iris_training.csv does not exist: 'iris_training.csv'

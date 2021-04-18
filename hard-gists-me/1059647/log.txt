@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "snippet.py", line 4, in <module>
+    from ndb import model
+  File "/usr/local/lib/python2.7/site-packages/ndb/__init__.py", line 22, in <module>
+    from tasklets import *
+  File "/usr/local/lib/python2.7/site-packages/ndb/tasklets.py", line 85, in <module>
+    from .google_imports import apiproxy_stub_map
+  File "/usr/local/lib/python2.7/site-packages/ndb/google_imports.py", line 62, in <module>
+    raise ImportError('Unable to find the App Engine SDK. '
+ImportError: Unable to find the App Engine SDK. Did you remember to set the "GAE" environment variable to be the path to the App Engine SDK?

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "snippet.py", line 86, in <module>
+    train, test = read_dataset()
+  File "snippet.py", line 77, in read_dataset
+    dataset = sets.Ocr()
+AttributeError: 'module' object has no attribute 'Ocr'

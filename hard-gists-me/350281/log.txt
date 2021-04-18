@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "snippet.py", line 11, in <module>
+    class PickleField(models.TextField):
+  File "snippet.py", line 15, in PickleField
+    __metaclass__ = models.SubfieldBase
+AttributeError: 'module' object has no attribute 'SubfieldBase'

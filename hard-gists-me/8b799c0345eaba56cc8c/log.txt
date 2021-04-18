@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 7, in <module>
+    import gimpfu
+ImportError: No module named gimpfu

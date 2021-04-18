@@ -1,0 +1,4 @@
+WARNING:tensorflow:From snippet.py:54: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+/bin/sh: 1: ./snippet.py: Permission denied
+/bin/sh: 1: ./snippet.py: Permission denied

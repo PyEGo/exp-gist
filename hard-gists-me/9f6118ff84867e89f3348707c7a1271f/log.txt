@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "snippet.py", line 1, in <module>
+    import torch.utils.data
+  File "/usr/local/lib/python2.7/site-packages/torch/__init__.py", line 19, in <module>
+    from ._six import string_classes as _string_classes
+  File "/usr/local/lib/python2.7/site-packages/torch/_six.py", line 23, in <module>
+    import builtins
+ImportError: No module named builtins

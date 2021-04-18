@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "snippet.py", line 13, in <module>
+    import edward as ed
+  File "/usr/local/lib/python2.7/site-packages/edward/__init__.py", line 5, in <module>
+    from edward import criticisms
+  File "/usr/local/lib/python2.7/site-packages/edward/criticisms/__init__.py", line 7, in <module>
+    from edward.criticisms.evaluate import *
+  File "/usr/local/lib/python2.7/site-packages/edward/criticisms/evaluate.py", line 10, in <module>
+    from edward.util import check_data, get_session, compute_multinomial_mode, \
+  File "/usr/local/lib/python2.7/site-packages/edward/util/__init__.py", line 10, in <module>
+    from edward.util.random_variables import *
+  File "/usr/local/lib/python2.7/site-packages/edward/util/random_variables.py", line 15, in <module>
+    from tensorflow.python.framework.ops import set_shapes_for_outputs
+ImportError: cannot import name set_shapes_for_outputs

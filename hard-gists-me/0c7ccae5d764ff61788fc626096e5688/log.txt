@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "snippet.py", line 36, in <module>
+    commits = log(path)
+  File "snippet.py", line 11, in log
+    repo = git.Repo(repo)
+  File "/usr/local/lib/python2.7/site-packages/git/repo/base.py", line 183, in __init__
+    raise InvalidGitRepositoryError(epath)
+git.exc.InvalidGitRepositoryError: /

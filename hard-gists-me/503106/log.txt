@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 13, in <module>
+    from django.db.models import get_models, get_app
+ImportError: cannot import name get_models

@@ -1,0 +1,2 @@
+usage: snippet.py [-h] source
+snippet.py: error: too few arguments

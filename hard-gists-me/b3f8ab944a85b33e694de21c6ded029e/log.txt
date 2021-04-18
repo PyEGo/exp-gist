@@ -1,0 +1,19 @@
+WARNING:tensorflow:From snippet.py:114: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-10-18 15:03:01.767988: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2020-10-18 15:03:01.797301: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3600000000 Hz
+2020-10-18 15:03:01.798134: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x3767460 executing computations on platform Host. Devices:
+2020-10-18 15:03:01.798178: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From snippet.py:31: __init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.GRUCell, and will be replaced by that in Tensorflow 2.0.
+WARNING:tensorflow:From snippet.py:49: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+Traceback (most recent call last):
+  File "snippet.py", line 115, in <module>
+    model= BabySeq2Seq(vocab_size, target_vocab_size, buckets, size=10, num_layers=1, batch_size=batch_size)
+  File "snippet.py", line 56, in __init__
+    self.outputs, self.losses = tf.nn.seq2seq.model_with_buckets(
+  File "/usr/local/lib/python2.7/site-packages/tensorflow/python/util/deprecation_wrapper.py", line 106, in __getattr__
+    attr = getattr(self._dw_wrapped_module, name)
+AttributeError: 'module' object has no attribute 'seq2seq'

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 11, in <module>
+    import getpass, httplib2, urllib, re, string
+ImportError: No module named httplib2

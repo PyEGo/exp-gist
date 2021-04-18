@@ -1,0 +1,2 @@
+usage:snippet.py dbip dbport dbusr dbpwd [start_time] [end_time]
+example:snippet.py 127.0.0.1 3306 root root '2014-1-1' '2014-1-2'

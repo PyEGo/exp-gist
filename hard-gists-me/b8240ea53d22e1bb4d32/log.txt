@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 29, in <module>
+    with open('stopwords.txt', 'r') as f:
+IOError: [Errno 2] No such file or directory: 'stopwords.txt'

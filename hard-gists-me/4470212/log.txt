@@ -1,0 +1,8 @@
+/usr/local/lib/python2.7/site-packages/IPython/utils/pickleutil.py:3: UserWarning: IPython.utils.pickleutil has moved to ipykernel.pickleutil
+  warn("IPython.utils.pickleutil has moved to ipykernel.pickleutil")
+Traceback (most recent call last):
+  File "snippet.py", line 3, in <module>
+    from IPython.utils import pickleutil
+  File "/usr/local/lib/python2.7/site-packages/IPython/utils/pickleutil.py", line 5, in <module>
+    from ipykernel.pickleutil import *
+ImportError: No module named ipykernel.pickleutil

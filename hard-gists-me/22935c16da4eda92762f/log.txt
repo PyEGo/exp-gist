@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 9, in <module>
+    from qgis.core import QgsProject
+ImportError: No module named qgis.core

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 2, in <module>
+    import dpkt, pcap, socket
+ImportError: No module named pcap

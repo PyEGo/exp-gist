@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 2, in <module>
+    from jinja2 import Markup
+ImportError: No module named jinja2

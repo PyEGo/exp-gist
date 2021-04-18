@@ -1,0 +1,21 @@
+FROM python:2.7.13
+COPY snippet.py snippet.py
+RUN ["apt-get","update"]
+RUN ["pip","install","gobject"]
+RUN ["pip","install","17MonIP"]
+RUN ["pip","install","marrow.mailer"]
+RUN ["pip","install","marrow.schema"]
+RUN ["pip","install","marrow.mongo"]
+RUN ["apt-get","install","-y","python-pip"]
+RUN ["apt-get","install","-y","python-dev"]
+RUN ["apt-get","install","-y","build-essential"]
+RUN ["pip","install","Twisted"]
+RUN ["pip","install","IPy"]
+RUN ["pip","install","WebCore"]
+RUN ["pip","install","six"]
+RUN ["pip","install","pytest"]
+RUN ["pip","install","py"]
+RUN ["pip","install","ipython"]
+RUN ["pip","install","pymongo"]
+CMD ["python","snippet.py"]
+

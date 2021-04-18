@@ -1,0 +1,4 @@
+Usage: snippet.py [OPTIONS] FILENAME
+Try 'snippet.py --help' for help.
+
+Error: Missing argument 'FILENAME'.

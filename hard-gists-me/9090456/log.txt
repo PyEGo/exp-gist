@@ -1,0 +1,2 @@
+Probability that version B is larger is 0.0014987457283617202
+Terminate test. Choose version B. Expected error is 1.5167061081662674e-05

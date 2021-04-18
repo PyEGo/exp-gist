@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "snippet.py", line 85, in <module>
+    babel = Babel(node_modules)
+  File "snippet.py", line 19, in __init__
+    self.babel = execjs.compile(self.module_append_string + command_string)
+  File "/usr/local/lib/python2.7/site-packages/execjs/__init__.py", line 61, in compile
+    return get().compile(source, cwd)
+  File "/usr/local/lib/python2.7/site-packages/execjs/_runtimes.py", line 21, in get
+    return get_from_environment() or _find_available_runtime()
+  File "/usr/local/lib/python2.7/site-packages/execjs/_runtimes.py", line 49, in _find_available_runtime
+    raise exceptions.RuntimeUnavailableError("Could not find an available JavaScript runtime.")
+execjs._exceptions.RuntimeUnavailableError: Could not find an available JavaScript runtime.

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 2, in <module>
+    from flask.ext.celery import Celery
+ImportError: No module named ext.celery

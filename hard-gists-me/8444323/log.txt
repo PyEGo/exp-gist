@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "snippet.py", line 48, in <module>
+    Encrypt('sample.wmv')
+  File "snippet.py", line 36, in Encrypt
+    data = open(fname, 'rb').read()
+IOError: [Errno 2] No such file or directory: 'sample.wmv'

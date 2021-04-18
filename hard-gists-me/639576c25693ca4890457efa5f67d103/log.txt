@@ -1,0 +1,27 @@
+WARNING:tensorflow:From snippet.py:16: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From snippet.py:16: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+2020-10-16 19:20:55.283351: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2020-10-16 19:20:55.309680: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3600000000 Hz
+2020-10-16 19:20:55.310642: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x3da3440 executing computations on platform Host. Devices:
+2020-10-16 19:20:55.310683: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From snippet.py:29: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From snippet.py:31: The name tf.FIFOQueue is deprecated. Please use tf.queue.FIFOQueue instead.
+
+WARNING:tensorflow:From snippet.py:40: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+Traceback (most recent call last):
+  File "snippet.py", line 66, in <module>
+    sess.run(tf.global_variables_initializer())
+  File "/usr/local/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 950, in run
+    run_metadata_ptr)
+  File "/usr/local/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 1173, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/usr/local/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 1350, in _do_run
+    run_metadata)
+  File "/usr/local/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 1370, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Cannot assign a device for operation Variable: node Variable (defined at snippet.py:25) was explicitly assigned to /device:GPU:0 but available devices are [ /job:localhost/replica:0/task:0/device:CPU:0, /job:localhost/replica:0/task:0/device:XLA_CPU:0 ]. Make sure the device specification refers to a valid device. The requested device appears to be a GPU, but CUDA is not enabled.
+	 [[Variable]]

@@ -1,0 +1,1 @@
+Usage: snippet.py image1 image2 ... [ > printer_device ]

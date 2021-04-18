@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "snippet.py", line 91, in <module>
+    main()
+  File "snippet.py", line 86, in main
+    export_scalars(multiplexer, run_name, tag_name, output_filepath)
+  File "snippet.py", line 41, in export_scalars
+    data = extract_scalars(multiplexer, run, tag)
+  File "snippet.py", line 25, in extract_scalars
+    tensor_events = multiplexer.Tensors(run, tag)
+  File "/usr/local/lib/python2.7/site-packages/tensorboard/backend/event_processing/plugin_event_multiplexer.py", line 399, in Tensors
+    accumulator = self.GetAccumulator(run)
+Loading data...
+Exporting (run='scalars_demo/temperature:t0=270,tA=270,kH=0.001', tag='temperature/current/scalar_summary') to '/tmp/csv_output/scalars_demo_temperature_t0_270_tA_270_kH_0_001___temperature_current_scalar_summary'...
+  File "/usr/local/lib/python2.7/site-packages/tensorboard/backend/event_processing/plugin_event_multiplexer.py", line 475, in GetAccumulator
+    return self._accumulators[run]
+KeyError: 'scalars_demo/temperature:t0=270,tA=270,kH=0.001'

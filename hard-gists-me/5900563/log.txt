@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 1, in <module>
+    from robot.api import ExecutionResult, ResultVisitor
+ImportError: No module named robot.api

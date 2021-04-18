@@ -1,0 +1,8 @@
+WARNING:tensorflow:From snippet.py:25: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+Traceback (most recent call last):
+  File "snippet.py", line 37, in <module>
+    inputs_series = tf.unpack(batchX_placeholder, axis=1)
+  File "/usr/local/lib/python2.7/site-packages/tensorflow/python/util/deprecation_wrapper.py", line 106, in __getattr__
+    attr = getattr(self._dw_wrapped_module, name)
+AttributeError: 'module' object has no attribute 'unpack'

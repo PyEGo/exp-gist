@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 4, in <module>
+    from mongoengine.python_support import PY3
+ImportError: cannot import name PY3

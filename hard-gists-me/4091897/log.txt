@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 14, in <module>
+    from joldit.apps.payments.models import Order
+ImportError: No module named joldit.apps.payments.models

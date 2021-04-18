@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "snippet.py", line 5, in <module>
+    clock = tkinter.Label()
+  File "/usr/local/lib/python2.7/lib-tk/Tkinter.py", line 2597, in __init__
+    Widget.__init__(self, master, 'label', cnf, kw)
+  File "/usr/local/lib/python2.7/lib-tk/Tkinter.py", line 2087, in __init__
+    BaseWidget._setup(self, master, cnf)
+  File "/usr/local/lib/python2.7/lib-tk/Tkinter.py", line 2062, in _setup
+    _default_root = Tk()
+  File "/usr/local/lib/python2.7/lib-tk/Tkinter.py", line 1820, in __init__
+    self.tk = _tkinter.create(screenName, baseName, className, interactive, wantobjects, useTk, sync, use)
+_tkinter.TclError: no display name and no $DISPLAY environment variable

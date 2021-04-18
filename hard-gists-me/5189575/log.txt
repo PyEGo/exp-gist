@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 21, in <module>
+    reports = c.execute('''SELECT report from reports_munkireport''')
+sqlite3.OperationalError: no such table: reports_munkireport

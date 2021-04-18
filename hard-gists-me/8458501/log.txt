@@ -1,0 +1,29 @@
+/usr/local/lib/python2.7/site-packages/OpenSSL/crypto.py:12: CryptographyDeprecationWarning: Python 2 is no longer supported by the Python core team. Support for it is now deprecated in cryptography, and will be removed in a future release.
+  from cryptography import x509
+Traceback (most recent call last):
+  File "snippet.py", line 153, in <module>
+    exhaustive_test()
+  File "snippet.py", line 145, in exhaustive_test
+    test_stealth(bob_seed, alice_seed)
+  File "snippet.py", line 80, in test_stealth
+    bob_shared_secret = diffie_hellman(bob_secret, alice_mpk)
+  File "snippet.py", line 36, in diffie_hellman
+    result = "\x03" + ("%x" % point.x()).decode("hex")
+  File "/usr/local/lib/python2.7/encodings/hex_codec.py", line 42, in hex_decode
+    output = binascii.a2b_hex(input)
+TypeError: Odd-length string
+
+
+Iteration 0
+Bob secret 3e046e683b5c3f2ea9e4c03eea34ce9b98ba00e290e31b901504df1c26a6fe21
+Alice secret 95616a5d8bc6f16e0b2d3b5ff62323b61e5f00c62e735749fea6524fe15a129f
+
+
+Bob mpk (compressed) 022bd563dc11c684a466512ce874d4f4a1d12aabc15ad4f6e958254f83dfe15459
+Alice mpk (compressed) 027e6dc94a638e8fb9d4cfc3380e800ea09791a1818073a3280183295bc26fec9e
+
+
+Bob chain a05737a0ff7daed5b7d733b79f208f69db660a8530382b1fcc1d752afa6313e9
+Alice chain 724b0c10f44376a4b0fb75d79ce0e5b1ffe2c46ccc20e5806736bde9b4b7e2d9
+
+

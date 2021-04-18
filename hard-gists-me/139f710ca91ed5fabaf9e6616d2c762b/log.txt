@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 15, in <module>
+    from gensim.models import word2vec
+ImportError: No module named gensim.models

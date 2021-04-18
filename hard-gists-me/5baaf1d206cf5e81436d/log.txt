@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 51, in <module>
+    with open("colorize.tfmodel", mode='rb') as f:
+IOError: [Errno 2] No such file or directory: 'colorize.tfmodel'

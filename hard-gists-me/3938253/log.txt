@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "snippet.py", line 11, in <module>
+    class Command(RunserverCommand):
+  File "snippet.py", line 12, in Command
+    option_list = RunserverCommand.option_list + (
+AttributeError: type object 'Command' has no attribute 'option_list'

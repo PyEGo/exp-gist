@@ -1,0 +1,2 @@
+Please specify a checkpoint_dir. Usage:
+python tensorflow_rename_variables.py --checkpoint_dir=path/to/dir/ --replace_from=substr --replace_to=substr --add_prefix=abc --dry_run

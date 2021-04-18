@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "snippet.py", line 2, in <module>
+    from django.contrib.postgres.fields import ArrayField
+  File "/usr/local/lib/python2.7/site-packages/django/contrib/postgres/fields/__init__.py", line 1, in <module>
+    from .array import *  # NOQA
+  File "/usr/local/lib/python2.7/site-packages/django/contrib/postgres/fields/array.py", line 3, in <module>
+    from django.contrib.postgres import lookups
+  File "/usr/local/lib/python2.7/site-packages/django/contrib/postgres/lookups.py", line 4, in <module>
+    from .search import SearchVector, SearchVectorExact, SearchVectorField
+  File "/usr/local/lib/python2.7/site-packages/django/contrib/postgres/search.py", line 47, in <module>
+    class SearchVector(SearchVectorCombinable, Func):
+  File "/usr/local/lib/python2.7/site-packages/django/contrib/postgres/search.py", line 50, in SearchVector
+    _output_field = SearchVectorField()
+  File "/usr/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 172, in __init__
+    self.db_tablespace = db_tablespace or settings.DEFAULT_INDEX_TABLESPACE
+  File "/usr/local/lib/python2.7/site-packages/django/conf/__init__.py", line 56, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/site-packages/django/conf/__init__.py", line 39, in _setup
+    % (desc, ENVIRONMENT_VARIABLE))
+django.core.exceptions.ImproperlyConfigured: Requested setting DEFAULT_INDEX_TABLESPACE, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.

@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "snippet.py", line 52, in <module>
+    bi[k] = basic_income_cost_benefit()
+  File "snippet.py", line 26, in basic_income_cost_benefit
+    return direct_costs + administrative_costs + labor_effect_costs_benefit - jk_rowling(non_workers)
+  File "snippet.py", line 11, in jk_rowling
+    num_of_jk_rowlings = binom(num_non_workers, 1e-7).rvs()
+  File "/usr/local/lib/python2.7/site-packages/scipy/stats/_distn_infrastructure.py", line 468, in rvs
+    return self.dist.rvs(*self.args, **kwds)
+  File "/usr/local/lib/python2.7/site-packages/scipy/stats/_distn_infrastructure.py", line 2846, in rvs
+    return super(rv_discrete, self).rvs(*args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/scipy/stats/_distn_infrastructure.py", line 952, in rvs
+    vals = self._rvs(*args)
+  File "/usr/local/lib/python2.7/site-packages/scipy/stats/_discrete_distns.py", line 43, in _rvs
+    return self._random_state.binomial(n, p, self._size)
+  File "mtrand.pyx", line 3795, in mtrand.RandomState.binomial
+TypeError: Cannot cast array data from dtype('float64') to dtype('int64') according to the rule 'safe'

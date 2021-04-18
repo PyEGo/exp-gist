@@ -1,0 +1,9 @@
+FROM python:2.7.13
+COPY snippet.py snippet.py
+RUN ["pip","install","M2Crypto"]
+RUN ["pip","install","six"]
+RUN ["pip","install","pytest"]
+RUN ["pip","install","py"]
+RUN ["pip","install","pytz"]
+CMD ["python","snippet.py"]
+

@@ -1,0 +1,6 @@
+usage: snippet.py [--version] [--info] [-h] [-k KSIZE] [-U UNIQUE_KMERS]
+                  [--fp-rate FP_RATE] [-M MAX_MEMORY_USAGE] [--small-count]
+                  [-z] [-b] [-s] [--savegraph filename] [-f] [-q]
+                  [--max-abundance MAX_ABUNDANCE] [--hist-plot HIST_PLOT]
+                  input_sequence_filename
+snippet.py: error: too few arguments

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "snippet.py", line 42, in <module>
+    main()
+  File "snippet.py", line 37, in main
+    tfidf_result = vectorizer.fit_transform(get_document_filenames())
+  File "snippet.py", line 13, in get_document_filenames
+    for each in os.listdir(document_path)]
+OSError: [Errno 2] No such file or directory: '/home/tool/document_text'

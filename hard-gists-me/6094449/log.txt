@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 20, in <module>
+    from sklearn.utils.validation import array2d
+ImportError: cannot import name array2d

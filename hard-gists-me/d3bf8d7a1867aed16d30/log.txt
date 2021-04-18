@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "snippet.py", line 13, in <module>
+    from fuse import FUSE, FuseOSError, Operations, LoggingMixIn
+  File "/usr/local/lib/python2.7/site-packages/fuse/__init__.py", line 3, in <module>
+    from .defect_augment import DefectAugment
+  File "/usr/local/lib/python2.7/site-packages/fuse/defect_augment.py", line 11, in <module>
+    from gunpowder import BatchFilter
+  File "/usr/local/lib/python2.7/site-packages/gunpowder/__init__.py", line 3, in <module>
+    from . import nodes
+  File "/usr/local/lib/python2.7/site-packages/gunpowder/nodes/__init__.py", line 3, in <module>
+    from .add_affinities import AddAffinities
+  File "/usr/local/lib/python2.7/site-packages/gunpowder/nodes/add_affinities.py", line 4, in <module>
+    from .batch_filter import BatchFilter
+  File "/usr/local/lib/python2.7/site-packages/gunpowder/nodes/batch_filter.py", line 137
+    f"{self.__class__} returned a {type(dependencies)}! "
+                                                        ^
+SyntaxError: invalid syntax

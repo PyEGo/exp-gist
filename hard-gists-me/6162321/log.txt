@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "snippet.py", line 47, in <module>
+    import pyglet
+  File "/usr/local/lib/python2.7/site-packages/pyglet/__init__.py", line 44, in <module>
+    from typing import TYPE_CHECKING
+ImportError: No module named typing

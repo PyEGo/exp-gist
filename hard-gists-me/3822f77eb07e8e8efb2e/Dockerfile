@@ -1,0 +1,12 @@
+FROM python:2.7.13
+COPY snippet.py snippet.py
+RUN ["pip","install","marrow.mailer"]
+RUN ["pip","install","marrow.schema"]
+RUN ["pip","install","marrow.mongo"]
+RUN ["pip","install","six"]
+RUN ["pip","install","pytest"]
+RUN ["pip","install","py"]
+RUN ["pip","install","WebCore"]
+RUN ["pip","install","PyGTK"]
+CMD ["python","snippet.py"]
+

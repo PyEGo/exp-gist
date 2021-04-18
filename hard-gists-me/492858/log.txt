@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "snippet.py", line 19, in <module>
+    import tap
+  File "/usr/local/lib/python2.7/site-packages/tap/__init__.py", line 3, in <module>
+    from .runner import TAPTestRunner
+  File "/usr/local/lib/python2.7/site-packages/tap/runner.py", line 10, in <module>
+    from tap.tracker import Tracker
+  File "/usr/local/lib/python2.7/site-packages/tap/tracker.py", line 111
+    print(result, file=self.stream)
+                      ^
+SyntaxError: invalid syntax

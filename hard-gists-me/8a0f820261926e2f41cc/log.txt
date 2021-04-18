@@ -1,0 +1,5 @@
+WARNING (theano.tensor.blas): Using NumPy C-API based implementation for BLAS functions.
+Traceback (most recent call last):
+  File "snippet.py", line 568, in <module>
+    from sklearn import cross_validation, preprocessing
+ImportError: cannot import name cross_validation

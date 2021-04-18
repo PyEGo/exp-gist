@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+Running a completely silly example.
+With UCB:
+[-24.401093808968476, -80.0]
+  File "snippet.py", line 74, in <module>
+    bayesopt(func, X[:], ucb_acq(0.1), niter=10, debug=True)
+  File "snippet.py", line 53, in bayesopt
+    gp = gaussian_process.GaussianProcess()
+AttributeError: 'module' object has no attribute 'GaussianProcess'

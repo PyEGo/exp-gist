@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 5, in <module>
+    mol = pybel.readstring('smi','C1CCC[NH+](CC1)C[C@@H]2CCC[NH2+]2')
+AttributeError: 'module' object has no attribute 'readstring'

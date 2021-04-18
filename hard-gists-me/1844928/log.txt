@@ -1,0 +1,193 @@
+Error processing line 3 of /usr/local/lib/python2.7/site-packages/twitter.common.app-0.3.11-py2.7-nspkg.pth:
+
+  Traceback (most recent call last):
+    File "/usr/local/lib/python2.7/site.py", line 152, in addpackage
+      exec line
+    File "<string>", line 1, in <module>
+  KeyError: 'twitter'
+
+Remainder of file ignored
+Error processing line 3 of /usr/local/lib/python2.7/site-packages/twitter.common.collections-0.3.11-py2.7-nspkg.pth:
+
+  Traceback (most recent call last):
+    File "/usr/local/lib/python2.7/site.py", line 152, in addpackage
+      exec line
+    File "<string>", line 1, in <module>
+  KeyError: 'twitter'
+
+Remainder of file ignored
+Error processing line 3 of /usr/local/lib/python2.7/site-packages/twitter.common.concurrent-0.3.11-py2.7-nspkg.pth:
+
+  Traceback (most recent call last):
+    File "/usr/local/lib/python2.7/site.py", line 152, in addpackage
+      exec line
+    File "<string>", line 1, in <module>
+  KeyError: 'twitter'
+
+Remainder of file ignored
+Error processing line 3 of /usr/local/lib/python2.7/site-packages/twitter.common.config-0.3.11-py2.7-nspkg.pth:
+
+  Traceback (most recent call last):
+    File "/usr/local/lib/python2.7/site.py", line 152, in addpackage
+      exec line
+    File "<string>", line 1, in <module>
+  KeyError: 'twitter'
+
+Remainder of file ignored
+Error processing line 3 of /usr/local/lib/python2.7/site-packages/twitter.common.confluence-0.3.11-py2.7-nspkg.pth:
+
+  Traceback (most recent call last):
+    File "/usr/local/lib/python2.7/site.py", line 152, in addpackage
+      exec line
+    File "<string>", line 1, in <module>
+  KeyError: 'twitter'
+
+Remainder of file ignored
+Error processing line 3 of /usr/local/lib/python2.7/site-packages/twitter.common.contextutil-0.3.11-py2.7-nspkg.pth:
+
+  Traceback (most recent call last):
+    File "/usr/local/lib/python2.7/site.py", line 152, in addpackage
+      exec line
+    File "<string>", line 1, in <module>
+  KeyError: 'twitter'
+
+Remainder of file ignored
+Error processing line 3 of /usr/local/lib/python2.7/site-packages/twitter.common.decorators-0.3.11-py2.7-nspkg.pth:
+
+  Traceback (most recent call last):
+    File "/usr/local/lib/python2.7/site.py", line 152, in addpackage
+      exec line
+    File "<string>", line 1, in <module>
+  KeyError: 'twitter'
+
+Remainder of file ignored
+Error processing line 3 of /usr/local/lib/python2.7/site-packages/twitter.common.dirutil-0.3.11-py2.7-nspkg.pth:
+
+  Traceback (most recent call last):
+    File "/usr/local/lib/python2.7/site.py", line 152, in addpackage
+      exec line
+    File "<string>", line 1, in <module>
+  KeyError: 'twitter'
+
+Remainder of file ignored
+Error processing line 3 of /usr/local/lib/python2.7/site-packages/twitter.common.exceptions-0.3.11-py2.7-nspkg.pth:
+
+  Traceback (most recent call last):
+    File "/usr/local/lib/python2.7/site.py", line 152, in addpackage
+      exec line
+    File "<string>", line 1, in <module>
+  KeyError: 'twitter'
+
+Remainder of file ignored
+Error processing line 3 of /usr/local/lib/python2.7/site-packages/twitter.common.fs-0.3.11-py2.7-nspkg.pth:
+
+  Traceback (most recent call last):
+    File "/usr/local/lib/python2.7/site.py", line 152, in addpackage
+      exec line
+    File "<string>", line 1, in <module>
+  KeyError: 'twitter'
+
+Remainder of file ignored
+Error processing line 3 of /usr/local/lib/python2.7/site-packages/twitter.common.git-0.3.11-py2.7-nspkg.pth:
+
+  Traceback (most recent call last):
+    File "/usr/local/lib/python2.7/site.py", line 152, in addpackage
+      exec line
+    File "<string>", line 1, in <module>
+  KeyError: 'twitter'
+
+Remainder of file ignored
+Error processing line 3 of /usr/local/lib/python2.7/site-packages/twitter.common.http-0.3.11-py2.7-nspkg.pth:
+
+  Traceback (most recent call last):
+    File "/usr/local/lib/python2.7/site.py", line 152, in addpackage
+      exec line
+    File "<string>", line 1, in <module>
+  KeyError: 'twitter'
+
+Remainder of file ignored
+Error processing line 3 of /usr/local/lib/python2.7/site-packages/twitter.common.java-0.3.11-py2.7-nspkg.pth:
+
+  Traceback (most recent call last):
+    File "/usr/local/lib/python2.7/site.py", line 152, in addpackage
+      exec line
+    File "<string>", line 1, in <module>
+  KeyError: 'twitter'
+
+Remainder of file ignored
+Error processing line 3 of /usr/local/lib/python2.7/site-packages/twitter.common.jira-0.3.11-py2.7-nspkg.pth:
+
+  Traceback (most recent call last):
+    File "/usr/local/lib/python2.7/site.py", line 152, in addpackage
+      exec line
+    File "<string>", line 1, in <module>
+  KeyError: 'twitter'
+
+Remainder of file ignored
+Error processing line 3 of /usr/local/lib/python2.7/site-packages/twitter.common.lang-0.3.11-py2.7-nspkg.pth:
+
+  Traceback (most recent call last):
+    File "/usr/local/lib/python2.7/site.py", line 152, in addpackage
+      exec line
+    File "<string>", line 1, in <module>
+  KeyError: 'twitter'
+
+Remainder of file ignored
+Error processing line 3 of /usr/local/lib/python2.7/site-packages/twitter.common.log-0.3.11-py2.7-nspkg.pth:
+
+  Traceback (most recent call last):
+    File "/usr/local/lib/python2.7/site.py", line 152, in addpackage
+      exec line
+    File "<string>", line 1, in <module>
+  KeyError: 'twitter'
+
+Remainder of file ignored
+Error processing line 3 of /usr/local/lib/python2.7/site-packages/twitter.common.metrics-0.3.11-py2.7-nspkg.pth:
+
+  Traceback (most recent call last):
+    File "/usr/local/lib/python2.7/site.py", line 152, in addpackage
+      exec line
+    File "<string>", line 1, in <module>
+  KeyError: 'twitter'
+
+Remainder of file ignored
+Error processing line 3 of /usr/local/lib/python2.7/site-packages/twitter.common.net-0.3.11-py2.7-nspkg.pth:
+
+  Traceback (most recent call last):
+    File "/usr/local/lib/python2.7/site.py", line 152, in addpackage
+      exec line
+    File "<string>", line 1, in <module>
+  KeyError: 'twitter'
+
+Remainder of file ignored
+Error processing line 3 of /usr/local/lib/python2.7/site-packages/twitter.common.options-0.3.11-py2.7-nspkg.pth:
+
+  Traceback (most recent call last):
+    File "/usr/local/lib/python2.7/site.py", line 152, in addpackage
+      exec line
+    File "<string>", line 1, in <module>
+  KeyError: 'twitter'
+
+Remainder of file ignored
+Error processing line 3 of /usr/local/lib/python2.7/site-packages/twitter.common.process-0.3.11-py2.7-nspkg.pth:
+
+  Traceback (most recent call last):
+    File "/usr/local/lib/python2.7/site.py", line 152, in addpackage
+      exec line
+    File "<string>", line 1, in <module>
+  KeyError: 'twitter'
+
+Remainder of file ignored
+Error processing line 3 of /usr/local/lib/python2.7/site-packages/twitter.common.quantity-0.3.11-py2.7-nspkg.pth:
+
+  Traceback (most recent call last):
+    File "/usr/local/lib/python2.7/site.py", line 152, in addpackage
+      exec line
+    File "<string>", line 1, in <module>
+  KeyError: 'twitter'
+
+Remainder of file ignored
+Traceback (most recent call last):
+  File "snippet.py", line 43, in <module>
+    from config import CONSUMER_KEY, CONSUMER_SECRET, ACCESS_KEY, ACCESS_SECRET
+ImportError: cannot import name CONSUMER_KEY

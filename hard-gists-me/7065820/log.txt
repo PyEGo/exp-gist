@@ -1,0 +1,1 @@
+./png2rgb565.py HOGE.png

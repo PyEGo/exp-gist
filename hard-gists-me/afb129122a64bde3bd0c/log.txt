@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 114, in <module>
+    main(**{k:v for (k,v) in vars(args).items() if v is not None})
+TypeError: main() takes at least 1 argument (0 given)

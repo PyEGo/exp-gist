@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "snippet.py", line 1, in <module>
+    from pymouse import PyMouse
+  File "/usr/local/lib/python2.7/site-packages/pymouse/__init__.py", line 95, in <module>
+    from unix import PyMouse, PyMouseEvent
+  File "/usr/local/lib/python2.7/site-packages/pymouse/unix.py", line 25, in <module>
+    display = Display(':0')
+  File "/usr/local/lib/python2.7/site-packages/Xlib/display.py", line 89, in __init__
+    self.display = _BaseDisplay(display)
+  File "/usr/local/lib/python2.7/site-packages/Xlib/display.py", line 71, in __init__
+    protocol_display.Display.__init__(self, *args, **keys)
+  File "/usr/local/lib/python2.7/site-packages/Xlib/protocol/display.py", line 89, in __init__
+    self.socket = connect.get_socket(name, protocol, host, displayno)
+  File "/usr/local/lib/python2.7/site-packages/Xlib/support/connect.py", line 87, in get_socket
+    return mod.get_socket(dname, protocol, host, dno)
+  File "/usr/local/lib/python2.7/site-packages/Xlib/support/unix_connect.py", line 127, in get_socket
+    raise error.DisplayConnectionError(dname, str(val))
+Xlib.error.DisplayConnectionError: Can't connect to display ":0": [Errno 111] Connection refused

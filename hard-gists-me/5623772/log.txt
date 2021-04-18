@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 21, in <module>
+    nearest = nearby(Point(x, y), 5, 'km')
+NameError: name 'Point' is not defined

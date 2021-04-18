@@ -1,0 +1,30 @@
+Traceback (most recent call last):
+  File "snippet.py", line 3, in <module>
+    from django.contrib.gis.db import models
+  File "/usr/local/lib/python2.7/site-packages/django/contrib/gis/db/models/__init__.py", line 3, in <module>
+    from django.contrib.gis.db.models.aggregates import *  # NOQA
+  File "/usr/local/lib/python2.7/site-packages/django/contrib/gis/db/models/aggregates.py", line 1, in <module>
+    from django.contrib.gis.db.models.fields import ExtentField
+  File "/usr/local/lib/python2.7/site-packages/django/contrib/gis/db/models/fields.py", line 3, in <module>
+    from django.contrib.gis import forms, gdal
+  File "/usr/local/lib/python2.7/site-packages/django/contrib/gis/forms/__init__.py", line 3, in <module>
+    from .fields import (  # NOQA
+  File "/usr/local/lib/python2.7/site-packages/django/contrib/gis/forms/fields.py", line 4, in <module>
+    from django.contrib.gis.geos import GEOSException, GEOSGeometry
+  File "/usr/local/lib/python2.7/site-packages/django/contrib/gis/geos/__init__.py", line 5, in <module>
+    from .collections import (  # NOQA
+  File "/usr/local/lib/python2.7/site-packages/django/contrib/gis/geos/collections.py", line 11, in <module>
+    from django.contrib.gis.geos.geometry import GEOSGeometry, LinearGeometryMixin
+  File "/usr/local/lib/python2.7/site-packages/django/contrib/gis/geos/geometry.py", line 11, in <module>
+    from django.contrib.gis import gdal
+  File "/usr/local/lib/python2.7/site-packages/django/contrib/gis/gdal/__init__.py", line 28, in <module>
+    from django.contrib.gis.gdal.datasource import DataSource
+  File "/usr/local/lib/python2.7/site-packages/django/contrib/gis/gdal/datasource.py", line 39, in <module>
+    from django.contrib.gis.gdal.driver import Driver
+  File "/usr/local/lib/python2.7/site-packages/django/contrib/gis/gdal/driver.py", line 5, in <module>
+    from django.contrib.gis.gdal.prototypes import ds as vcapi, raster as rcapi
+  File "/usr/local/lib/python2.7/site-packages/django/contrib/gis/gdal/prototypes/ds.py", line 9, in <module>
+    from django.contrib.gis.gdal.libgdal import GDAL_VERSION, lgdal
+  File "/usr/local/lib/python2.7/site-packages/django/contrib/gis/gdal/libgdal.py", line 45, in <module>
+    % '", "'.join(lib_names)
+django.core.exceptions.ImproperlyConfigured: Could not find the GDAL library (tried "gdal", "GDAL", "gdal2.1.0", "gdal2.0.0", "gdal1.11.0", "gdal1.10.0", "gdal1.9.0"). Is GDAL installed? If it is, try setting GDAL_LIBRARY_PATH in your settings.

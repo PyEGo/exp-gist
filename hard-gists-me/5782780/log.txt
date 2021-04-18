@@ -1,0 +1,33 @@
+Traceback (most recent call last):
+  File "snippet.py", line 143, in <module>
+    ffst = ForcedFirstSplitTreeLearner(data, first_split_attr="age")
+  File "/usr/local/lib/python2.7/site-packages/Orange/classification/tree.py", line 1887, in __new__
+'Normal' TreeLearner:
+sex=female
+|    status=crew: yes (86.96%)
+|    status=first
+|    |    age=adult: yes (97.22%)
+|    |    age=child: yes (100.00%)
+|    status=second
+    return self.__call__(data, weightID)
+  File "snippet.py", line 87, in __call__
+    if instances.domain.class_var.var_type == Orange.data.Type.Discrete:
+AttributeError: 'module' object has no attribute 'Type'
+|    |    age=adult: yes (86.02%)
+|    |    age=child: yes (100.00%)
+|    status=third
+|    |    age=adult: no (53.94%)
+|    |    age=child: no (54.84%)
+sex=male
+|    age=adult
+|    |    status=crew: no (77.73%)
+|    |    status=first: no (67.43%)
+|    |    status=second: no (91.67%)
+|    |    status=third: no (83.77%)
+|    age=child
+|    |    status=crew<null node>: <null node>
+|    |    status=first: yes (100.00%)
+|    |    status=second: yes (100.00%)
+|    |    status=third: no (72.92%)
+
+

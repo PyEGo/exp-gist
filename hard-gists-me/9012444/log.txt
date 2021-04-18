@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 5, in <module>
+    from config import COOKIE_FILE, LOGIN_ID, LOGIN_PW
+ImportError: cannot import name COOKIE_FILE

@@ -1,0 +1,35 @@
+vector_cos 0.739278786807
+vector_cos2 0.7392787868071962
+vector_cos3
+Traceback (most recent call last):
+  File "snippet.py", line 120, in <module>
+    main()
+  File "snippet.py", line 116, in main
+    print fn.__name__, fn(u, v)
+  File "snippet.py", line 60, in vector_cos3
+    return _vector_cos3(u, v)[0][0]
+  File "/usr/local/lib/python2.7/site-packages/sklearn/metrics/pairwise.py", line 896, in cosine_similarity
+    X, Y = check_pairwise_arrays(X, Y)
+  File "/usr/local/lib/python2.7/site-packages/sklearn/metrics/pairwise.py", line 111, in check_pairwise_arrays
+    warn_on_dtype=warn_on_dtype, estimator=estimator)
+  File "/usr/local/lib/python2.7/site-packages/sklearn/utils/validation.py", line 552, in check_array
+    "if it contains a single sample.".format(array))
+ValueError: Expected 2D array, got 1D array instead:
+array=[0.85266438 0.72033311 0.31708335 0.66755595 0.50739699 0.32746701
+ 0.15279172 0.18719717 0.2415688  0.59582082 0.38320249 0.81439079
+ 0.35051684 0.63763059 0.62777058 0.68124651 0.15791487 0.67276014
+ 0.05746371 0.41257361 0.37211341 0.44635438 0.96519905 0.50185863
+ 0.44646213 0.6634651  0.1843592  0.39194476 0.76896123 0.14698021
+ 0.0182213  0.37207481 0.88238716 0.76948553 0.65625381 0.1405852
+ 0.30423367 0.32267254 0.0848468  0.30584162 0.53006774 0.43182403
+ 0.32977863 0.66480241 0.28720443 0.05112669 0.25914193 0.33454263
+ 0.66660478 0.68105222 0.57762235 0.38297252 0.16086302 0.91440475
+ 0.81747812 0.37397477 0.45353033 0.19131841 0.58948521 0.92872291
+ 0.4580841  0.47693805 0.5123235  0.85178674 0.47737673 0.09546625
+ 0.44368761 0.75428932 0.06218341 0.92670925 0.86973925 0.53256141
+ 0.70951967 0.96009741 0.10036588 0.35992756 0.88617402 0.27552814
+ 0.58776015 0.09432019 0.70595719 0.04430135 0.53259927 0.38837886
+ 0.57742239 0.49498194 0.37868012 0.70107916 0.75584385 0.5157058
+ 0.71835504 0.4697684  0.94408584 0.2853792  0.78940491 0.82201304
+ 0.01489833 0.97668541 0.59710931 0.91706546].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 19, in <module>
+    from statsmodels.regression.linear_model import OLS, OLSResults
+ImportError: No module named statsmodels.regression.linear_model

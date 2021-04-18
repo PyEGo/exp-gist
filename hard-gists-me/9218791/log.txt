@@ -1,0 +1,2 @@
+usage: snippet.py [-h] [-o [OUTPUT_FILE]] [-f [FILL_CHAR]] filename
+snippet.py: error: too few arguments

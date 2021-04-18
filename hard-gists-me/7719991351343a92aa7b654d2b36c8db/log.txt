@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "snippet.py", line 16, in <module>
+    import hal
+  File "/usr/local/lib/python2.7/site-packages/hal/__init__.py", line 1, in <module>
+    from .functions import *
+  File "/usr/local/lib/python2.7/site-packages/hal/functions.py", line 55
+    def _STATUSFUNC(name, restype, *params, out=None, library=_dll,
+                                              ^
+SyntaxError: invalid syntax

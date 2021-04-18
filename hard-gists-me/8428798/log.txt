@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "snippet.py", line 1, in <module>
+    from rest_framework.views import exception_handler
+  File "/usr/local/lib/python2.7/site-packages/rest_framework/views.py", line 6, in <module>
+    from django.conf import settings
+ImportError: No module named django.conf

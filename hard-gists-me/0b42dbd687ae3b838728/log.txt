@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "snippet.py", line 7, in <module>
+    crime = git.Repo("/Users/chadblack/Projects/crime")
+  File "/usr/local/lib/python2.7/site-packages/git/repo/base.py", line 132, in __init__
+    raise NoSuchPathError(epath)
+git.exc.NoSuchPathError: /Users/chadblack/Projects/crime

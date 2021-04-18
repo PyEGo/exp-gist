@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "snippet.py", line 211, in <module>
+    with INGDirect(client=os.getenv('client'), pin=os.getenv('pin')) as client:
+  File "snippet.py", line 112, in __init__
+    self.display = Display(visible=visible, size=(800, 800))
+  File "/usr/local/lib/python2.7/site-packages/pyvirtualdisplay/display.py", line 58, in __init__
+    **kwargs
+  File "/usr/local/lib/python2.7/site-packages/pyvirtualdisplay/xvfb.py", line 54, in __init__
+    extra_args=extra_args,
+  File "/usr/local/lib/python2.7/site-packages/pyvirtualdisplay/abstractdisplay.py", line 87, in __init__
+    helptext = get_helptext(program)
+  File "/usr/local/lib/python2.7/site-packages/pyvirtualdisplay/util.py", line 10, in get_helptext
+    p.call()
+  File "/usr/local/lib/python2.7/site-packages/easyprocess/__init__.py", line 141, in call
+    self.start().wait(timeout=timeout)
+  File "/usr/local/lib/python2.7/site-packages/easyprocess/__init__.py", line 174, in start
+    raise EasyProcessError(self, "start error")
+easyprocess.EasyProcessError: start error <EasyProcess cmd_param=['Xvfb', '-help'] cmd=['Xvfb', '-help'] oserror=[Errno 2] No such file or directory return_code=None stdout="None" stderr="None" timeout_happened=False>

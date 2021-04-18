@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "snippet.py", line 4, in <module>
+    speech_engine = pyttsx.init('sapi5') # see http://pyttsx.readthedocs.org/en/latest/engine.html#pyttsx.init
+  File "/usr/local/lib/python2.7/site-packages/pyttsx/__init__.py", line 39, in init
+    eng = Engine(driverName, debug)
+  File "/usr/local/lib/python2.7/site-packages/pyttsx/engine.py", line 45, in __init__
+    self.proxy = driver.DriverProxy(weakref.proxy(self), driverName, debug)
+  File "/usr/local/lib/python2.7/site-packages/pyttsx/driver.py", line 64, in __init__
+    self._module = __import__(name, globals(), locals(), [driverName])
+  File "/usr/local/lib/python2.7/site-packages/pyttsx/drivers/sapi5.py", line 19, in <module>
+    import win32com.client
+ImportError: No module named win32com.client

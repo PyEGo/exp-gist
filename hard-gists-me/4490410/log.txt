@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "snippet.py", line 2, in <module>
+    from tastypie.models import ApiKey, ApiAccess
+  File "/usr/local/lib/python2.7/site-packages/tastypie/models.py", line 11, in <module>
+    from tastypie.utils import now
+  File "/usr/local/lib/python2.7/site-packages/tastypie/utils/__init__.py", line 3, in <module>
+    from tastypie.utils.urls import trailing_slash  # noqa
+  File "/usr/local/lib/python2.7/site-packages/tastypie/utils/urls.py", line 8, in <module>
+    _trailing_slash = '/?' if getattr(settings, 'TASTYPIE_ALLOW_MISSING_SLASH', False) else '/'
+  File "/usr/local/lib/python2.7/site-packages/django/conf/__init__.py", line 56, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/site-packages/django/conf/__init__.py", line 39, in _setup
+    % (desc, ENVIRONMENT_VARIABLE))
+django.core.exceptions.ImproperlyConfigured: Requested setting TASTYPIE_ALLOW_MISSING_SLASH, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.

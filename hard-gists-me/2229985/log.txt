@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "snippet.py", line 4, in <module>
+    import asyncmongo
+  File "/usr/local/lib/python2.7/site-packages/asyncmongo/__init__.py", line 24, in <module>
+    raise ImportError("bson library not installed. Install pymongo >= 1.9 https://github.com/mongodb/mongo-python-driver")
+ImportError: bson library not installed. Install pymongo >= 1.9 https://github.com/mongodb/mongo-python-driver

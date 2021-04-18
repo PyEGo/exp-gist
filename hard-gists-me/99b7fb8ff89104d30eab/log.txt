@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "snippet.py", line 9, in <module>
+    import time, sys,iptc  # iptc 包通过 sudo pip install python-iptables 安装
+  File "/usr/local/lib/python2.7/site-packages/iptc/__init__.py", line 10, in <module>
+    from iptc.ip4tc import (is_table_available, Table, Chain, Rule, Match, Target, Policy, IPTCError)
+  File "/usr/local/lib/python2.7/site-packages/iptc/ip4tc.py", line 13, in <module>
+    from .xtables import (XT_INV_PROTO, NFPROTO_IPV4, XTablesError, xtables,
+  File "/usr/local/lib/python2.7/site-packages/iptc/xtables.py", line 825, in <module>
+    raise XTablesError("can't find directory with extensions; "
+iptc.errors.XTablesError: can't find directory with extensions; please set XTABLES_LIBDIR

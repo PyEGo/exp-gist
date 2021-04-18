@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 4, in <module>
+    from hsdo import make_app
+ImportError: No module named hsdo

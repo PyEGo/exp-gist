@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 12, in <module>
+    from flask.ext.bootstrap import Bootstrap
+ImportError: No module named ext.bootstrap

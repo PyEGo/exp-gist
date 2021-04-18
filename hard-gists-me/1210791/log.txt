@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 2, in <module>
+    from PyQt4.QtCore import (pyqtSlot, pyqtSignal, QObject, QSize, QUrl,
+ImportError: No module named PyQt4.QtCore

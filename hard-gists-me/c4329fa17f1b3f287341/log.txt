@@ -1,0 +1,9 @@
+No handlers could be found for logger "thrift.transport.TSocket"
+Traceback (most recent call last):
+  File "snippet.py", line 191, in <module>
+    main()
+  File "snippet.py", line 172, in main
+    conn1.close()
+  File "snippet.py", line 97, in close
+    self._client._iprot.trans.close()
+AttributeError: 'NoneType' object has no attribute '_iprot'

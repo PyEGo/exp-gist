@@ -1,0 +1,88 @@
+WARNING:tensorflow:From snippet.py:103: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-10-16 10:34:28.812764: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2020-10-16 10:34:28.833268: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3600000000 Hz
+2020-10-16 10:34:28.834129: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5189850 executing computations on platform Host. Devices:
+2020-10-16 10:34:28.834171: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From snippet.py:105: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From snippet.py:36: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /usr/local/lib/python2.7/site-packages/tensorflow/python/util/tf_should_use.py:193: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+2020-10-16 10:34:28.908959: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+WARNING:tensorflow:From snippet.py:109: The name tf.train.GradientDescentOptimizer is deprecated. Please use tf.compat.v1.train.GradientDescentOptimizer instead.
+
+[1. 0. 0. 0. 0.]
+0  cost 0.2122852
+0  original [ 8.71547974e-01 -9.16530961e-02 -6.07597876e-02 -8.68033955e-04
+  4.29595846e-03]
+0  decoded [[ 0.40380734 -0.14004946 -0.01459844 -0.00135922  0.04979759]]
+100  cost 0.20645013
+100  original [-0.02894363  0.93657874  0.08164108  0.10289755  0.0531461 ]
+100  decoded [[ 0.38186076  0.9228266   0.09201218 -0.0240549  -0.11398982]]
+200  cost 0.08318995
+200  original [ 0.96830296 -0.04287229 -0.0544672   0.07444774  0.08937096]
+200  decoded [[ 0.9495694   0.00162113 -0.14114389  0.21713735  0.02304563]]
+300  cost 0.07398791
+300  original [1.05466759 0.0312995  0.05419517 0.02239543 0.10709188]
+300  decoded [[ 0.95100594 -0.0357045   0.16087152  0.02644054  0.13428685]]
+400  cost 0.028340282
+400  original [ 0.08993063  0.90569729 -0.07375518 -0.09379526 -0.00524083]
+400  decoded [[ 0.10269748  0.9600485  -0.06270545 -0.06627853 -0.00966173]]
+500  cost 0.06526147
+500  original [ 0.98205332  0.03798191 -0.05035501 -0.17854664 -0.04178916]
+500  decoded [[ 0.95354545  0.15251923 -0.05258106 -0.259987   -0.06873938]]
+600  cost 0.06323438
+600  original [-0.03021684  0.94633695  0.03021039 -0.05938189 -0.11989245]
+600  decoded [[-0.02124681  0.9665345  -0.02143025  0.04185602 -0.03872187]]
+700  cost 0.08603407
+700  original [ 0.19018077  0.85442316 -0.03160387 -0.30735444  0.13589891]
+700  decoded [[ 0.16506283  0.95558256  0.00414081 -0.1545247   0.09703301]]
+800  cost 0.06746476
+800  original [ 0.98173287  0.09139282 -0.08562319 -0.03042378 -0.05766663]
+800  decoded [[ 0.9603386   0.12111261 -0.02092236  0.09383987 -0.01537198]]
+900  cost 0.04532898
+900  original [-0.15623033  1.03828618  0.01702036 -0.1025198   0.06105391]
+900  decoded [[-0.19247848  0.9747475   0.0594987  -0.1583595   0.06103023]]
+1000  cost 0.06880801
+1000  original [ 0.17845969  0.91861981 -0.0067774  -0.02160284  0.01229694]
+1000  decoded [[0.28592888 0.9698524  0.02585587 0.04842512 0.07170623]]
+1100  cost 0.08678446
+1100  original [-0.11270539  1.03124255 -0.02097299  0.03509588  0.04980908]
+1100  decoded [[-0.2448383   0.97561747  0.02017524 -0.04439502 -0.04554534]]
+1200  cost 0.050761852
+1200  original [-0.11565025  0.97978168 -0.0422606   0.04250168  0.04943671]
+1200  decoded [[-0.09429478  0.97073185 -0.13495153  0.09372292  0.01581157]]
+1300  cost 0.0535368
+1300  original [-0.01801182  1.0844392  -0.0913628   0.12342317 -0.14319848]
+1300  decoded [[ 0.00696815  0.9680742  -0.09273411  0.11089216 -0.14050832]]
+1400  cost 0.096433766
+1400  original [-0.12173119  1.02178992 -0.04024081 -0.06310296  0.07455254]
+1400  decoded [[-0.08257989  0.9705184  -0.00661078 -0.22618775  0.19541667]]
+1500  cost 0.056371495
+1500  original [ 0.08029324  1.03005798 -0.01439067  0.10404104 -0.11688587]
+1500  decoded [[ 0.19018984  0.97241545 -0.02604901  0.10753751 -0.13534272]]
+1600  cost 0.056246962
+1600  original [ 1.05647949 -0.04528069  0.07660035  0.076691    0.04113257]
+1600  decoded [[0.9694984  0.00846163 0.10593487 0.14284544 0.05243465]]
+1700  cost 0.09096025
+1700  original [ 0.06466318  0.95830412 -0.09721555 -0.19359053 -0.03784654]
+1700  decoded [[ 0.0772159   0.9714743  -0.06142434 -0.02920336  0.07499693]]
+1800  cost 0.046913087
+1800  original [ 0.97775741 -0.00941126 -0.07253466 -0.17036058 -0.08571142]
+1800  decoded [[ 0.9628607  -0.10862982 -0.06474613 -0.1734884  -0.11516494]]
+1900  cost 0.08263952
+1900  original [-0.1420041   0.85861367 -0.04107575 -0.1279143   0.00743916]
+1900  decoded [[-0.11377136  0.97462535  0.01737871 -0.2439598   0.06227687]]
+2000  cost 0.05673311
+2000  original [ 1.00411279 -0.05931772 -0.03218868 -0.07771619  0.12756402]
+2000  decoded [[ 0.966915    0.02191073 -0.09065021 -0.13713376  0.16167109]]
+2100  cost 0.17878906
+2100  original [0.84804245 0.25868323 0.15406874 0.01104391 0.19424705]
+2100  decoded [[ 0.97982204 -0.09713136  0.12477958 -0.04176742  0.08374429]]
+2200  cost 0.08205902
+2200  original [-0.01466319  1.04412929  0.14097547 -0.0709895   0.01407332]
+2200  decoded [[-0.14565307  0.9716869   0.20443475 -0.15229465 -0.01091785]]
+2300  cost 0.075450644

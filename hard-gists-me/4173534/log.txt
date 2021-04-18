@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "snippet.py", line 4, in <module>
+    import feedparser
+  File "/usr/local/lib/python2.7/site-packages/feedparser/__init__.py", line 31, in <module>
+    from .api import parse
+  File "/usr/local/lib/python2.7/site-packages/feedparser/api.py", line 56, in <module>
+    from . import http
+  File "/usr/local/lib/python2.7/site-packages/feedparser/http.py", line 156
+    new_pieces[1] = f'{url_pieces.hostname}:{url_pieces.port}'
+                                                             ^
+SyntaxError: invalid syntax

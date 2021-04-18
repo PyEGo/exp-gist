@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "snippet.py", line 9, in <module>
+    repo = Repo('/path/to/your/repo')
+  File "/usr/local/lib/python2.7/site-packages/git/repo/base.py", line 132, in __init__
+    raise NoSuchPathError(epath)
+git.exc.NoSuchPathError: /path/to/your/repo

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 9, in <module>
+    start = Point(3, 1) #the sheet has 8 sets of characters in a 4x2 grid.
+NameError: name 'Point' is not defined

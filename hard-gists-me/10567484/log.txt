@@ -1,0 +1,1 @@
+Usage: ./asciinator.py image scale factor

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 6, in <module>
+    from tensorflow.python.ops.rnn_cell_impl import RNNCell, _linear
+ImportError: cannot import name _linear

@@ -1,0 +1,57 @@
+snippet.py:350: RuntimeWarning: invalid value encountered in sqrt
+  y = lambda m: np.sqrt(9.81 * m / 0.25) * np.tanh(np.sqrt(9.81 * 0.25 / m) * 4) - 36
+snippet.py:358: RuntimeWarning: invalid value encountered in sqrt
+  dy = lambda m: (1 / 2) * np.sqrt(9.81 / (m * 0.25)) * np.tanh(np.sqrt(9.81 * 0.25 / m) * 4) - \
+snippet.py:359: RuntimeWarning: invalid value encountered in sqrt
+  (9.81 * 4 / (2 * m)) * (1 / np.cosh(np.sqrt(9.81 * 0.25 / m) * 4)) ** 2
+[!] 0. Real Root
+
+('[+] Real Root:', array([142.73763311]))
+()
+[!] 1. Incremental Search
+
+('[+] Number of Brackets =', 1)
+('[+] Root Interval =', [139.08163265306123, 143.14285714285717])
+()
+[!] 2. Bisection
+
+('[+] root:', 142.73765563964844)
+('[+] f(root):', 4.6089132155202606e-07, '(Must Be Zero)')
+('[+] Estimated Error:', 5.3450468252827136e-05, '(Must Be Zero Error)')
+('[+] Iterated Number to Find Root: ', 21)
+()
+[!] 3. False Position
+
+('[+] root:', 142.73783844758216, '(False Position)')
+('[+] f(root):', 4.200349749794441e-06, '(Must Be Zero, False Position)')
+('[+] Estimated Error:', 7.781013789779357e-05, '(Must Be Zero Error, False Position)')
+('[+] Iterated Number to Find Root: ', 29, '(False Position)')
+()
+[!] 4. Newton-Raphson
+
+[=] On xr = 140
+
+('[+] Root:', nan)
+('[+] Estimated Error:', nan, '(Must Be Zero Error)')
+('[+] Iterated Number to Find Root: ', 50)
+()
+[=] On xr = 200
+
+('[+] root:', 144447.05348394177)
+('[+] Estimated Error:', 14.161532444680589, '(Must Be Zero Error)')
+('[+] Iterated Number to Find Root: ', 50)
+()
+[=] On xr = 40
+
+('[+] root:', nan)
+('[+] Estimated Error:', nan, '(Must Be Zero Error)')
+('[+] Iterated Number to Find Root: ', 50)
+()
+[!] 5. Secant Method
+
+[=] On 40 to 200:
+
+('[+] Root:', 142.73763310875134)
+('[+] Estimated Error:', 6.298918853104221e-06, '(Must Be Zero Error)')
+('[+] Iterated Number to Find Root: ', 7)
+()

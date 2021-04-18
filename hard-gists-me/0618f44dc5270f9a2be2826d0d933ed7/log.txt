@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "snippet.py", line 53, in <module>
+    'django.server': DEFAULT_LOGGING['loggers']['django.server'],
+  File "/usr/local/lib/python2.7/logging/config.py", line 794, in dictConfig
+    dictConfigClass(config).configure()
+  File "/usr/local/lib/python2.7/logging/config.py", line 576, in configure
+    '%r: %s' % (name, e))
+ValueError: Unable to configure handler 'sentry': Cannot resolve 'raven.contrib.django.raven_compat.handlers.SentryHandler': No module named raven

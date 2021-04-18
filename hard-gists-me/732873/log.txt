@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 3, in <module>
+    previous, current, branch = sys.argv[1:4]
+ValueError: need more than 0 values to unpack

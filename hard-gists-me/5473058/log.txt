@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 3, in <module>
+    from mpl_toolkits.basemap import Basemap # easy_install basemap
+ImportError: No module named basemap

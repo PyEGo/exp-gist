@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "snippet.py", line 56, in <module>
+    filename = raw_input("Image to pixelate? ")
+EOFError: EOF when reading a line
+Image to pixelate? 

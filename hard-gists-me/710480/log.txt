@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 3, in <module>
+    from django.http import CompatCookie, HttpRequest
+ImportError: cannot import name CompatCookie

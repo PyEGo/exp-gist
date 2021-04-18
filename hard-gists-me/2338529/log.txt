@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "snippet.py", line 182, in <module>
+    cacert, cert, pk = mk_casigned_cert()
+  File "snippet.py", line 116, in mk_casigned_cert
+    cacert, pk1, _ = mk_cacert()
+  File "snippet.py", line 93, in mk_cacert
+    cert.add_ext(X509.new_extension('subjectKeyIdentifier', cert.get_fingerprint()))
+  File "/usr/local/lib/python2.7/site-packages/M2Crypto/X509.py", line 47, in new_extension
+    x509_ext_ptr = m2.x509v3_ext_conf(None, ctx, name, value)
+TypeError: in method 'x509v3_ext_conf', argument 4 of type 'char *'

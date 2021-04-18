@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 28, in <module>
+    from sphinx.util.smartypants import sphinx_smarty_pants as ssp
+ImportError: cannot import name sphinx_smarty_pants

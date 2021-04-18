@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "snippet.py", line 10, in <module>
+    client = facebook.GraphAPI(access_token=USER_ACCESS_TOKEN, version='2.5')
+  File "/usr/local/lib/python2.7/site-packages/facebook/__init__.py", line 105, in __init__
+    + str(VALID_API_VERSIONS).strip("[]")
+facebook.GraphAPIError: Valid API versions are '2.8', '2.9', '2.10', '2.11', '2.12', '3.0', '3.1'

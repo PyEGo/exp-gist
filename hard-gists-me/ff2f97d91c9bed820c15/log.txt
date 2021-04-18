@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 178, in <module>
+    epoch_ent = epoch_ll*-math.log(2)/words
+ZeroDivisionError: float division by zero

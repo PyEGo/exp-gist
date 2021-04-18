@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 15, in <module>
+    instruments = visa.get_instruments_list()
+AttributeError: 'module' object has no attribute 'get_instruments_list'

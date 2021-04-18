@@ -1,0 +1,22 @@
+FROM python:2.7.13
+COPY snippet.py snippet.py
+RUN ["pip","install","py_curses_editor"]
+RUN ["pip","install","zipnish"]
+RUN ["pip","install","di-py"]
+RUN ["pip","install","clip.py"]
+RUN ["pip","install","six"]
+RUN ["pip","install","Flask"]
+RUN ["pip","install","Werkzeug"]
+RUN ["pip","install","itsdangerous"]
+RUN ["pip","install","alembic"]
+RUN ["pip","install","python-editor"]
+RUN ["pip","install","numpy"]
+RUN ["pip","install","scipy"]
+RUN ["pip","install","pmagpy"]
+RUN ["pip","install","pmagpy-cli"]
+RUN ["pip","install","clipboard"]
+RUN ["pip","install","ui"]
+RUN ["pip","install","editor"]
+RUN ["pip","install","Dialogs"]
+CMD ["python","snippet.py"]
+

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 1, in <module>
+    from django.db.models.signals import post_syncdb
+ImportError: cannot import name post_syncdb

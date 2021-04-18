@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 7, in <module>
+    from scrapy.contrib.spiders import CrawlSpider, Rule
+ImportError: No module named contrib.spiders

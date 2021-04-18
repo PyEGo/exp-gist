@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "snippet.py", line 2, in <module>
+    from django.contrib.auth.admin import UserAdmin
+  File "/usr/local/lib/python2.7/site-packages/django/contrib/auth/admin.py", line 7, in <module>
+    from django.contrib.auth.forms import (
+  File "/usr/local/lib/python2.7/site-packages/django/contrib/auth/forms.py", line 12, in <module>
+    from django.contrib.auth.models import User
+  File "/usr/local/lib/python2.7/site-packages/django/contrib/auth/models.py", line 4, in <module>
+    from django.contrib.auth.base_user import AbstractBaseUser, BaseUserManager
+  File "/usr/local/lib/python2.7/site-packages/django/contrib/auth/base_user.py", line 52, in <module>
+    class AbstractBaseUser(models.Model):
+  File "/usr/local/lib/python2.7/site-packages/django/contrib/auth/base_user.py", line 53, in AbstractBaseUser
+    password = models.CharField(_('password'), max_length=128)
+  File "/usr/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 1061, in __init__
+    super(CharField, self).__init__(*args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 172, in __init__
+    self.db_tablespace = db_tablespace or settings.DEFAULT_INDEX_TABLESPACE
+  File "/usr/local/lib/python2.7/site-packages/django/conf/__init__.py", line 56, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/site-packages/django/conf/__init__.py", line 39, in _setup
+    % (desc, ENVIRONMENT_VARIABLE))
+django.core.exceptions.ImproperlyConfigured: Requested setting DEFAULT_INDEX_TABLESPACE, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.

@@ -1,0 +1,14 @@
+/usr/local/lib/python2.7/site-packages/paramiko/transport.py:33: CryptographyDeprecationWarning: Python 2 is no longer supported by the Python core team. Support for it is now deprecated in cryptography, and will be removed in a future release.
+  from cryptography.hazmat.backends import default_backend
+Traceback (most recent call last):
+  File "snippet.py", line 1, in <module>
+    from fabric.api import *
+  File "/usr/local/lib/python2.7/site-packages/fabric/api.py", line 10, in <module>
+    from fabric.context_managers import (cd, hide, settings, show, path, prefix,
+  File "/usr/local/lib/python2.7/site-packages/fabric/context_managers.py", line 27, in <module>
+    from fabric.state import output, win32, connections, env
+  File "/usr/local/lib/python2.7/site-packages/fabric/state.py", line 9, in <module>
+    from fabric.network import HostConnectionCache, ssh
+  File "/usr/local/lib/python2.7/site-packages/fabric/network.py", line 16, in <module>
+    from fabric.exceptions import NetworkError
+ImportError: cannot import name NetworkError

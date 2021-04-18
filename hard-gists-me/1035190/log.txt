@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 13, in <module>
+    from django.http import HttpResponseRedirect, get_host
+ImportError: cannot import name get_host

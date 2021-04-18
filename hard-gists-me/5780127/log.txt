@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "snippet.py", line 64, in <module>
+    z = [row_column_histograms (a) for a in args]
+  File "snippet.py", line 16, in row_column_histograms
+    im = Image.open (file_name)
+  File "/usr/local/lib/python2.7/site-packages/PIL/Image.py", line 2766, in open
+    fp = builtins.open(filename, "rb")
+IOError: [Errno 2] No such file or directory: 'bears1.jpg'

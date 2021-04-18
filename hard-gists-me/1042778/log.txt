@@ -1,0 +1,12 @@
+Dumping:
+  json: 4.29221582413
+  simplejson: 6.58119893074
+  cjson: 1.22531795502
+  ujson: 1.08741497993
+  cPickle: 3.57507610321
+Loading:
+  json: 5.37035703659
+  simplejson: 3.38971710205
+  cjson: 0.623760938644
+  ujson: 1.0287258625
+  cPickle: 2.05691313744

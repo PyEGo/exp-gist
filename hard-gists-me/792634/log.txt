@@ -1,0 +1,9 @@
+
+Now testing this poly1305 implementation.
+Expected runtime to completion on a modern desktop running CPython is around
+10 days +/-. If this passes any checkpoint (10010, 123456, etc., lines), then
+it is likely not suffering from any debilitating implementation flaw (at least
+in terms of correctness, no guarantees regarding sideband attacks), and you
+can probably kill it.
+
+Sat Oct 17 06:38:45 2020 Starting...

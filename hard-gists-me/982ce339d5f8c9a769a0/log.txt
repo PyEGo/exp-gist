@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "snippet.py", line 44, in <module>
+    main()
+  File "snippet.py", line 36, in main
+    df['e'] = [random.choice(('Chicago', 'Boston', 'New York')) for i in range(df.shape[0])]
+NameError: global name 'random' is not defined

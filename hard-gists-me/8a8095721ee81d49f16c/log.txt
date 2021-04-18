@@ -1,0 +1,1 @@
+Usage: wavgrep.py --like|--similar|--this needle.wav haystack.wav

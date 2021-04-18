@@ -1,0 +1,11 @@
+WARNING:tensorflow:From /usr/local/lib/python2.7/site-packages/tensorflow/python/ops/math_grad.py:1205: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+Traceback (most recent call last):
+  File "snippet.py", line 42, in <module>
+    hessian = compute_hessian(f, all_variables)
+  File "snippet.py", line 16, in compute_hessian
+    temp = tf.pack(temp)
+  File "/usr/local/lib/python2.7/site-packages/tensorflow/python/util/deprecation_wrapper.py", line 106, in __getattr__
+    attr = getattr(self._dw_wrapped_module, name)
+AttributeError: 'module' object has no attribute 'pack'

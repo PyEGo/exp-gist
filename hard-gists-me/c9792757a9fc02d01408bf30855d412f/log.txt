@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 9, in <module>
+    os.chdir('C:\\OJT_Kevin\\161027_docx_parsing')
+OSError: [Errno 2] No such file or directory: 'C:\\OJT_Kevin\\161027_docx_parsing'

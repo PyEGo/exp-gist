@@ -1,0 +1,2 @@
+usage: snippet.py [-h] {-s} {-k} {-o} [-x] {add|delete|update} {Name} {TTL} [IN] {Type} {Target}
+snippet.py: error: too few arguments

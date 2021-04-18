@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 16, in <module>
+    with open(sys.argv[1]) as svgfile:
+IndexError: list index out of range

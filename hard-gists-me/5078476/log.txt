@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 3, in <module>
+    from jinja2 import Template
+ImportError: No module named jinja2

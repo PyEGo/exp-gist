@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "snippet.py", line 10, in <module>
+    from pytube import YouTube
+  File "/usr/local/lib/python2.7/site-packages/pytube/__init__.py", line 16, in <module>
+    from pytube.streams import Stream
+  File "/usr/local/lib/python2.7/site-packages/pytube/streams.py", line 17, in <module>
+    from pytube import extract
+  File "/usr/local/lib/python2.7/site-packages/pytube/extract.py", line 8, in <module>
+    from pytube.compat import urlencode
+ImportError: cannot import name urlencode

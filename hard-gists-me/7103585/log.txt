@@ -1,0 +1,4 @@
+
+    This script needs three arguments
+    Usage: python dnsNonRcv.py malwarefile nameserverIP
+            

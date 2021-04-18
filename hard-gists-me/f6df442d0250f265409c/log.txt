@@ -1,0 +1,1 @@
+Usage: %s {imgfile} > outfile.bin

@@ -1,0 +1,2 @@
+usage: average_image_color.py FILENAME
+prints the average color of the image as (R,G,B) where R,G,B are between 0 and 255.

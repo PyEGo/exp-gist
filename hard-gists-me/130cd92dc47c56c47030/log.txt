@@ -1,0 +1,10 @@
+/usr/local/lib/python2.7/site-packages/pydub/utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+  warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+Traceback (most recent call last):
+  File "snippet.py", line 9, in <module>
+    audio = AudioSegment.from_file(src)
+  File "/usr/local/lib/python2.7/site-packages/pydub/audio_segment.py", line 622, in from_file
+    file, close_file = _fd_or_path_or_tempfile(file, 'rb', tempfile=False)
+  File "/usr/local/lib/python2.7/site-packages/pydub/utils.py", line 60, in _fd_or_path_or_tempfile
+    fd = open(fd, mode=mode)
+IOError: [Errno 2] No such file or directory: './test.mp3'

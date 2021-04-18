@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 26, in <module>
+    with open('domains.txt', 'r') as fh:
+IOError: [Errno 2] No such file or directory: 'domains.txt'

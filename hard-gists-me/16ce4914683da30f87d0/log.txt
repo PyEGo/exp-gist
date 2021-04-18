@@ -1,0 +1,2 @@
+matching result: [8 0 9 9 3 6 8 5 2 5]
+1-best mean similarity: 0.05404970853126918

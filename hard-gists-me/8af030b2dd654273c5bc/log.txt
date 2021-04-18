@@ -1,0 +1,7 @@
+WARNING (theano.tensor.blas): Using NumPy C-API based implementation for BLAS functions.
+Traceback (most recent call last):
+  File "snippet.py", line 14, in <module>
+    from theano.sandbox.cuda.dnn import dnn_conv
+  File "/usr/local/lib/python2.7/site-packages/theano/sandbox/cuda/__init__.py", line 1, in <module>
+    from nose.plugins.skip import SkipTest
+ImportError: No module named nose.plugins.skip

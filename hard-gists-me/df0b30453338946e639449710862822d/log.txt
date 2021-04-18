@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "snippet.py", line 93, in <module>
+    run('tree.png')
+  File "snippet.py", line 66, in run
+    im = load_image(image_name)
+  File "snippet.py", line 11, in load_image
+    im = Image.open(filename)
+  File "/usr/local/lib/python2.7/site-packages/PIL/Image.py", line 2766, in open
+    fp = builtins.open(filename, "rb")
+IOError: [Errno 2] No such file or directory: 'tree.png'

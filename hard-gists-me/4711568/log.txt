@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "snippet.py", line 86, in <module>
+    createIndex()
+  File "snippet.py", line 71, in createIndex
+    for repos in g.legacy_search_repos(SEARCH_KEYWORD, LANGUAGE):
+AttributeError: 'Github' object has no attribute 'legacy_search_repos'

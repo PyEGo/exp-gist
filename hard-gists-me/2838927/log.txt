@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "snippet.py", line 10, in <module>
+    import tw2.sqla as twsa
+  File "/usr/local/lib/python2.7/site-packages/tw2/sqla/__init__.py", line 1, in <module>
+    from widgets import (
+  File "/usr/local/lib/python2.7/site-packages/tw2/sqla/widgets.py", line 3, in <module>
+    from zope.sqlalchemy import ZopeTransactionExtension
+ImportError: cannot import name ZopeTransactionExtension

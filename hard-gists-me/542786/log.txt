@@ -1,0 +1,8 @@
+Iteration 0
+Likelihood -278783.416032016
+Traceback (most recent call last):
+  File "snippet.py", line 243, in <module>
+    phi[z,:].reshape(width,-1))
+  File "snippet.py", line 179, in save_document_image
+    sp.misc.imsave(filename, np.kron(doc, zoom))
+AttributeError: 'module' object has no attribute 'misc'

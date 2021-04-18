@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 367, in <module>
+    if sys.argv[1] == "--help":
+IndexError: list index out of range

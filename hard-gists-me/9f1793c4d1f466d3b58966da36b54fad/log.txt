@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "snippet.py", line 10, in <module>
+    timestep_limit=200)
+  File "/usr/local/lib/python2.7/site-packages/gym/envs/registration.py", line 139, in register
+    return registry.register(id, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/gym/envs/registration.py", line 133, in register
+    self.env_specs[id] = EnvSpec(id, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'timestep_limit'

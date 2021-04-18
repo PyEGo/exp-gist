@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "snippet.py", line 47, in <module>
+    main()
+  File "snippet.py", line 16, in main
+    cpimage = clipboard.get_image()
+AttributeError: 'module' object has no attribute 'get_image'

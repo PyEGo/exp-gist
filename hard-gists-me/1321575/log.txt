@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "snippet.py", line 47, in <module>
+    data = loadtxt('ex1data1.txt', delimiter=',')
+  File "/usr/local/lib/python2.7/site-packages/numpy/lib/npyio.py", line 962, in loadtxt
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/usr/local/lib/python2.7/site-packages/numpy/lib/_datasource.py", line 266, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/usr/local/lib/python2.7/site-packages/numpy/lib/_datasource.py", line 624, in open
+    raise IOError("%s not found." % path)
+IOError: ex1data1.txt not found.

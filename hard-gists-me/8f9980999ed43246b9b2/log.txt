@@ -1,0 +1,1 @@
+('snippet.py', '<main.key> <hudson.util.Secret>')

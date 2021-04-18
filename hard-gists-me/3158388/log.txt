@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "snippet.py", line 26, in <module>
+    from south.modelsinspector import add_introspection_rules
+  File "/usr/local/lib/python2.7/site-packages/south/modelsinspector.py", line 20, in <module>
+    from django.contrib.contenttypes import generic
+ImportError: cannot import name generic

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 65, in <module>
+    class EmptyLayer(Layer):
+NameError: name 'Layer' is not defined

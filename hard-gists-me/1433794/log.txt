@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "snippet.py", line 208, in <module>
+    slim_main()
+  File "snippet.py", line 40, in slim_main
+    slim(repo_dir)
+  File "snippet.py", line 46, in slim
+    r = Repo(repo_dir)
+  File "/usr/local/lib/python2.7/site-packages/git/repo/base.py", line 183, in __init__
+    raise InvalidGitRepositoryError(epath)
+git.exc.InvalidGitRepositoryError: /

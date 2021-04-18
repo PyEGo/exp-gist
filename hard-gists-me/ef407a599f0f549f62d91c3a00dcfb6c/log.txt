@@ -1,0 +1,17 @@
+WARNING:tensorflow:From snippet.py:65: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+WARNING:tensorflow:From /usr/local/lib/python2.7/site-packages/tensorflow/python/util/tf_should_use.py:193: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+WARNING:tensorflow:From snippet.py:158: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From snippet.py:49: The name tf.OptimizerOptions is deprecated. Please use tf.compat.v1.OptimizerOptions instead.
+
+WARNING:tensorflow:From snippet.py:50: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From snippet.py:51: The name tf.GraphOptions is deprecated. Please use tf.compat.v1.GraphOptions instead.
+
+python: can't open file 'simple_barrier.py': [Errno 2] No such file or directory
+python: can't open file 'simple_barrier.py': [Errno 2] No such file or directory
+python: can't open file 'simple_barrier.py': [Errno 2] No such file or directory
+python: can't open file 'simple_barrier.py': [Errno 2] No such file or directory

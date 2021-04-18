@@ -1,0 +1,2 @@
+WARNING:tensorflow:From snippet.py:3: The name tf.nn.rnn_cell.RNNCell is deprecated. Please use tf.compat.v1.nn.rnn_cell.RNNCell instead.
+

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 22, in <module>
+    import tulip.events
+ImportError: No module named tulip.events

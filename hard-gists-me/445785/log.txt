@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "snippet.py", line 4, in <module>
+    from gevent import monkey; monkey.patch_all()
+  File "/usr/local/lib/python2.7/site-packages/gevent/monkey.py", line 1212, in patch_all
+    _notify_patch(events.GeventWillPatchAllEvent(modules_to_patch, kwargs), _warnings)
+  File "/usr/local/lib/python2.7/site-packages/gevent/monkey.py", line 185, in _notify_patch
+    notify_and_call_entry_points(event)
+  File "/usr/local/lib/python2.7/site-packages/gevent/events.py", line 104, in notify_and_call_entry_points
+    subscriber = plugin.load()
+  File "/usr/local/lib/python2.7/site-packages/pkg_resources/__init__.py", line 2340, in load
+    self.require(*args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/pkg_resources/__init__.py", line 2363, in require
+    items = working_set.resolve(reqs, env, installer, extras=self.extras)
+  File "/usr/local/lib/python2.7/site-packages/pkg_resources/__init__.py", line 867, in resolve
+    raise DistributionNotFound(req, requirers)
+pkg_resources.DistributionNotFound: The 'psutil>=5.7.0; sys_platform != "win32" or platform_python_implementation == "CPython" and extra == "recommended"' distribution was not found and is required by the application

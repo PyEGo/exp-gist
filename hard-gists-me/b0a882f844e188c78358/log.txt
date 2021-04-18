@@ -1,0 +1,8 @@
+snippet.py:73: SyntaxWarning: name 'conn' is used prior to global declaration
+  global conn
+snippet.py:75: SyntaxWarning: name 'cursor' is used prior to global declaration
+  global cursor
+Traceback (most recent call last):
+  File "snippet.py", line 17, in <module>
+    from PyRTF import * ### Not standard
+ImportError: No module named PyRTF

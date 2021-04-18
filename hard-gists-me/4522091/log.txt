@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "snippet.py", line 70, in <module>
+    il = ImageList('/Users/bobuk/,misc/wm')
+  File "snippet.py", line 44, in __init__
+    self.load()
+  File "snippet.py", line 49, in load
+    for filename in os.listdir(self.dirname)
+OSError: [Errno 2] No such file or directory: '/Users/bobuk/,misc/wm'

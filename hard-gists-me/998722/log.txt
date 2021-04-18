@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "snippet.py", line 15, in <module>
+    URL_VALIDATOR_USER_AGENT = settings.URL_VALIDATOR_USER_AGENT
+  File "/usr/local/lib/python2.7/site-packages/django/conf/__init__.py", line 56, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/site-packages/django/conf/__init__.py", line 39, in _setup
+    % (desc, ENVIRONMENT_VARIABLE))
+django.core.exceptions.ImproperlyConfigured: Requested setting URL_VALIDATOR_USER_AGENT, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.

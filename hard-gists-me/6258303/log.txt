@@ -1,0 +1,1 @@
+usage: generate_clut input_image clut.png

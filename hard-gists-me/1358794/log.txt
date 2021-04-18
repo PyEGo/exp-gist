@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 7, in <module>
+    from PyQt4 import QtCore, QtGui, QtWebKit
+ImportError: No module named PyQt4

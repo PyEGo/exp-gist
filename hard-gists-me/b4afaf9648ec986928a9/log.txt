@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 5, in <module>
+    from com.sun.star.beans import PropertyValue
+ImportError: No module named sun.star.beans

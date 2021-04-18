@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 73, in <module>
+    im = Image.open(sys.argv[2])
+IndexError: list index out of range

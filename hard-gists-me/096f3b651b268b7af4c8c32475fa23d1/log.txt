@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "snippet.py", line 10, in <module>
+    br.open("http://www.adm.uwaterloo.ca/infocour/CIR/SA/under.html")
+  File "/usr/local/lib/python2.7/site-packages/mechanize/_mechanize.py", line 257, in open
+    return self._mech_open(url_or_request, data, timeout=timeout)
+  File "/usr/local/lib/python2.7/site-packages/mechanize/_mechanize.py", line 313, in _mech_open
+    raise response
+mechanize._response.httperror_seek_wrapper: HTTP Error 403: request disallowed by robots.txt

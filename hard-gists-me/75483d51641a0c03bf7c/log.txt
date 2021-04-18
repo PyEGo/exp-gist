@@ -1,0 +1,11 @@
+Likelihoods for test set 1
+M1: 221.38828575112734
+M2: 165.27280230776495
+Prediction for test set 1
+Model 1
+
+Likelihoods for test set 2
+M1: 33.19459421485196
+M2: 59.15274753052998
+Prediction for test set 2
+Model 2

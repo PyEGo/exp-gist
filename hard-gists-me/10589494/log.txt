@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "snippet.py", line 3, in <module>
+    from imagekit.models import ImageSpecField
+  File "/usr/local/lib/python2.7/site-packages/imagekit/__init__.py", line 2, in <module>
+    from . import conf
+  File "/usr/local/lib/python2.7/site-packages/imagekit/conf.py", line 1, in <module>
+    from appconf import AppConf
+  File "/usr/local/lib/python2.7/site-packages/appconf/__init__.py", line 1, in <module>
+    from .base import AppConf  # noqa
+  File "/usr/local/lib/python2.7/site-packages/appconf/base.py", line 107
+    class AppConf(metaclass=AppConfMetaClass):
+                           ^
+SyntaxError: invalid syntax

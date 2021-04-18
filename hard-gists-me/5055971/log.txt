@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 34, in <module>
+    app = web.application(urls, globals())
+AttributeError: 'module' object has no attribute 'application'

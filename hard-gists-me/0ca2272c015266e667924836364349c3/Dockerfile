@@ -1,0 +1,9 @@
+FROM python:2.7.13
+COPY snippet.py snippet.py
+RUN ["pip","install","simpl"]
+RUN ["pip","install","simpleblogging"]
+RUN ["pip","install","jose"]
+RUN ["pip","install","python-jose"]
+RUN ["pip","install","simplejson"]
+CMD ["python","snippet.py"]
+

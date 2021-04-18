@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 7, in <module>
+    from oauthlib.oauth2.draft25 import AuthorizationEndpoint, TokenEndpoint, ResourceEndpoint
+ImportError: No module named draft25

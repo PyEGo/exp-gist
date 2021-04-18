@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "snippet.py", line 55, in <module>
+    DjangoApplication().run()
+  File "snippet.py", line 42, in run
+    self.mount_static(settings.STATIC_URL, settings.STATIC_ROOT)
+  File "/usr/local/lib/python2.7/site-packages/django/conf/__init__.py", line 56, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/site-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/site-packages/django/conf/__init__.py", line 110, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/local/lib/python2.7/importlib/__init__.py", line 37, in import_module
+Your app is running at http://localhost:8001
+    __import__(name)
+ImportError: No module named webapp.settings

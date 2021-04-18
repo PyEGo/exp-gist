@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "snippet.py", line 144, in <module>
+    f1=Linear(784, 100),
+  File "snippet.py", line 94, in __init__
+    super().__init__(W=W, b=b)
+TypeError: super() takes at least 1 argument (0 given)

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "snippet.py", line 1, in <module>
+    from rest_framework import serializers
+  File "/usr/local/lib/python2.7/site-packages/rest_framework/serializers.py", line 20, in <module>
+    from django.core.exceptions import ImproperlyConfigured
+ImportError: No module named django.core.exceptions

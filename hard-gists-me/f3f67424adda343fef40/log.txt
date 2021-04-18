@@ -1,0 +1,5 @@
+WARNING (theano.tensor.blas): Using NumPy C-API based implementation for BLAS functions.
+Traceback (most recent call last):
+  File "snippet.py", line 10, in <module>
+    from theano.compat.python2x import OrderedDict
+ImportError: No module named python2x

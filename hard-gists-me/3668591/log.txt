@@ -1,0 +1,46 @@
+
+Usage: texture_atlas.py [options] input_directory output_directory output_metadata_filename
+
+Options: 
+
+  --atlas-size | -a 
+    atlas size in pixels. power-of-2 please. 
+
+  --debug | -d 
+    debug logging... very verbose. 
+  
+  --compress FORMAT | -c FORMAT
+    sets the default to compress with FORMAT. Can be overriden by folder flags. 
+  
+  --processes N | -p N
+    number of simultaneous processes to run (default 8)
+
+  --resize PERCENT | -r PERCENT
+    resizes the images (integer number only, 100 = no resize).
+
+  --verbose | -v
+    enables debug logging. 
+
+
+Images in subfolders in the input_directory are processed in their
+separate atlas group. 
+
+Image filename format:  name[-flags][-angle][-frame].png
+  flags: 
+    l: part of a loopable sequence
+
+  eg: 
+    name-l-01.png   # frame 01 of loopable animation
+    name-01-03.png  # frame 03 of angle 01
+
+A folder (including the root) can contain flags that apply to that folder.
+
+Folder flags: 
+  _COMPRESS_FORMAT : compress using FORMAT, where FORMAT can be: PVR2... (TODO)
+  _NO_COMPRESS     : does not compress files
+  _NO_ATLAS        : just keep the original image, including size, as the output.
+  _NO_RESIZE       : ignore resize
+  _NO_TRIM         : does not trim transparent parts of the images.
+  _NO_MARGIN       : no margin when assembling the atlas. 
+
+

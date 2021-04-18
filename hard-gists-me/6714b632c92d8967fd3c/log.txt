@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 56, in <module>
+    from tensorflow.models.image.cifar10 import cifar10
+ImportError: No module named models.image.cifar10

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 4, in <module>
+    from webkit2png import WebkitRenderer
+ImportError: No module named webkit2png

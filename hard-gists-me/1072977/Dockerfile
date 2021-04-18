@@ -1,0 +1,23 @@
+FROM python:2.7.13
+COPY snippet.py snippet.py
+RUN ["apt-get","update"]
+RUN ["pip","install","ldap"]
+RUN ["pip","install","dj.choices"]
+RUN ["pip","install","requests"]
+RUN ["apt-get","install","-y","python-pip"]
+RUN ["apt-get","install","-y","python-dev"]
+RUN ["pip","install","six"]
+RUN ["pip","install","psycopg2"]
+RUN ["pip","install","pytz"]
+RUN ["pip","install","python-dateutil"]
+RUN ["pip","install","Django"]
+RUN ["pip","install","celery"]
+RUN ["pip","install","amqp"]
+RUN ["pip","install","kombu"]
+RUN ["pip","install","billiard"]
+RUN ["pip","install","anyjson"]
+RUN ["pip","install","django-celery"]
+RUN ["pip","install","South"]
+RUN ["pip","install","django-auth-ldap"]
+CMD ["python","snippet.py"]
+

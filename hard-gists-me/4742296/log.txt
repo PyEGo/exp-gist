@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "snippet.py", line 48, in <module>
+    main()
+  File "snippet.py", line 20, in main
+    rows = [r for r in json.loads(data)['data'] if r[2]] # Only plot valid data
+  File "/usr/local/lib/python2.7/site-packages/simplejson/__init__.py", line 525, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/lib/python2.7/site-packages/simplejson/decoder.py", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File "/usr/local/lib/python2.7/site-packages/simplejson/decoder.py", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+simplejson.errors.JSONDecodeError: Expecting value: line 1 column 1 (char 0)

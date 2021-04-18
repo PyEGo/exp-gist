@@ -1,0 +1,6 @@
+/usr/local/lib/python2.7/site-packages/IPython/nbformat.py:13: ShimWarning: The `IPython.nbformat` package has been deprecated since IPython 4.0. You should import from nbformat instead.
+  "You should import from nbformat instead.", ShimWarning)
+Traceback (most recent call last):
+  File "snippet.py", line 7, in <module>
+    from IPython.nbformat import current
+ImportError: cannot import name current

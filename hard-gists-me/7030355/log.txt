@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "snippet.py", line 7, in <module>
+    client.connect('localhost', 6600)
+  File "/usr/local/lib/python2.7/site-packages/mpd/base.py", line 641, in connect
+    self._sock = self._connect_tcp(host, port)
+  File "/usr/local/lib/python2.7/site-packages/mpd/base.py", line 604, in _connect_tcp
+    raise err
+socket.error: [Errno 111] Connection refused

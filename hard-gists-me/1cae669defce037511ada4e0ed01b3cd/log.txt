@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 14, in <module>
+    from mapproxy.image import ImageSource
+ImportError: No module named mapproxy.image

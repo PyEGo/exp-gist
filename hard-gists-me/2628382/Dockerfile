@@ -1,0 +1,21 @@
+FROM python:2.7.13
+COPY snippet.py snippet.py
+RUN ["pip","install","zope.testing"]
+RUN ["pip","install","zope.container"]
+RUN ["pip","install","zope.applicationcontrol"]
+RUN ["pip","install","zope.app.http"]
+RUN ["pip","install","zope.i18n"]
+RUN ["pip","install","zope.app.component"]
+RUN ["pip","install","zope.app.principalannotation"]
+RUN ["pip","install","zope.testbrowser"]
+RUN ["pip","install","zope.globalrequest"]
+RUN ["pip","install","zope.index"]
+RUN ["pip","install","zope.deprecation"]
+RUN ["pip","install","zope.annotation"]
+RUN ["pip","install","zope.browserresource"]
+RUN ["pip","install","zope.component"]
+RUN ["pip","install","six"]
+RUN ["pip","install","zope.interface"]
+RUN ["pip","install","zope.app.securitypolicy"]
+CMD ["python","snippet.py"]
+

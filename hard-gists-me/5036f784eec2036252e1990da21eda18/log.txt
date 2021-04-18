@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "snippet.py", line 18, in <module>
+    env = gym.make("Pong-v0") # environment info
+  File "/usr/local/lib/python2.7/site-packages/gym/envs/registration.py", line 142, in make
+    return registry.make(id, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/gym/envs/registration.py", line 87, in make
+    env = spec.make(**kwargs)
+  File "/usr/local/lib/python2.7/site-packages/gym/envs/registration.py", line 58, in make
+    cls = load(self.entry_point)
+  File "/usr/local/lib/python2.7/site-packages/gym/envs/registration.py", line 17, in load
+    mod = importlib.import_module(mod_name)
+  File "/usr/local/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/usr/local/lib/python2.7/site-packages/gym/envs/atari/__init__.py", line 1, in <module>
+    from gym.envs.atari.atari_env import AtariEnv
+  File "/usr/local/lib/python2.7/site-packages/gym/envs/atari/atari_env.py", line 13, in <module>
+    "'pip install gym[atari]'.)".format(e))
+gym.error.DependencyNotInstalled: No module named atari_py. (HINT: you can install Atari dependencies by running 'pip install gym[atari]'.)

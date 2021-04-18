@@ -1,0 +1,8 @@
+FROM python:2.7.13
+COPY snippet.py snippet.py
+RUN ["pip","install","dj.choices"]
+RUN ["pip","install","pyOpenSSL"]
+RUN ["pip","install","Django"]
+RUN ["pip","install","django-utils"]
+CMD ["python","snippet.py"]
+

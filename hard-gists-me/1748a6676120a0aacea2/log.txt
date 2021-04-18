@@ -1,0 +1,4 @@
+usage: snippet.py [-h] [-t [record_type [record_type ...]]]
+                  [-r [resolver [resolver ...]]] [-v]
+                  [record [record ...]]
+snippet.py: error: No DNS record/s specified.

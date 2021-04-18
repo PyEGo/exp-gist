@@ -1,0 +1,5 @@
+AUTH:secret_api_key:ZDE1MDdhMGVmMDBlYjEzMDE2NGNmY2RkZjg5OGU4YWIwOWVlZWE3MQ==
+Traceback (most recent call last):
+  File "snippet.py", line 31, in <module>
+    print authenticate_signed_token(argv[1])
+IndexError: list index out of range

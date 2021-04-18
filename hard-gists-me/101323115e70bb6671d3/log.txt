@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 10, in <module>
+    from nupic.algorithms.CLAClassifier import CLAClassifier as CLAClassifier
+ImportError: No module named CLAClassifier

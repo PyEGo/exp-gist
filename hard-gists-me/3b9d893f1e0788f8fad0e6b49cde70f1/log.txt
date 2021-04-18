@@ -1,0 +1,18 @@
+/usr/local/lib/python2.7/site-packages/gym/logger.py:30: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+WARNING:tensorflow:From snippet.py:137: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+WARNING:tensorflow:From snippet.py:58: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+Traceback (most recent call last):
+  File "snippet.py", line 200, in <module>
+    main()
+  File "snippet.py", line 154, in main
+    agent = DQN(env)
+  File "snippet.py", line 33, in __init__
+    self.create_training_method()
+  File "snippet.py", line 68, in create_training_method
+    Q_action = tf.reduce_sum(tf.mul(self.Q_value,self.action_input),reduction_indices = 1)
+  File "/usr/local/lib/python2.7/site-packages/tensorflow/python/util/deprecation_wrapper.py", line 106, in __getattr__
+    attr = getattr(self._dw_wrapped_module, name)
+AttributeError: 'module' object has no attribute 'mul'

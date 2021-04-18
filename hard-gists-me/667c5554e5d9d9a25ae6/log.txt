@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "snippet.py", line 175, in <module>
+    sort_all_pixels("image.jpg")
+  File "snippet.py", line 42, in sort_all_pixels
+    img = Image.open(image)
+  File "/usr/local/lib/python2.7/site-packages/PIL/Image.py", line 2766, in open
+Sorting all pixels.
+Opening image...
+    fp = builtins.open(filename, "rb")
+IOError: [Errno 2] No such file or directory: 'image.jpg'

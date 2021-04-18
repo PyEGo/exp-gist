@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "snippet.py", line 3, in <module>
+    from google.cloud import monitoring
+  File "/usr/local/lib/python2.7/site-packages/google/cloud/monitoring.py", line 20, in <module>
+    from google.cloud.monitoring_v3 import AlertPolicyServiceClient
+  File "/usr/local/lib/python2.7/site-packages/google/cloud/monitoring_v3/__init__.py", line 23, in <module>
+    from google.cloud.monitoring_v3.gapic import alert_policy_service_client
+  File "/usr/local/lib/python2.7/site-packages/google/cloud/monitoring_v3/gapic/alert_policy_service_client.py", line 25, in <module>
+    import google.api_core.gapic_v1.client_info
+  File "/usr/local/lib/python2.7/site-packages/google/api_core/gapic_v1/__init__.py", line 18, in <module>
+    from google.api_core.gapic_v1 import config
+  File "/usr/local/lib/python2.7/site-packages/google/api_core/gapic_v1/config.py", line 23, in <module>
+    import grpc
+  File "/usr/local/lib/python2.7/site-packages/grpc/__init__.py", line 23, in <module>
+    from grpc._cython import cygrpc as _cygrpc
+  File "src/python/grpcio/grpc/_cython/cygrpc.pyx", line 27, in init grpc._cython.cygrpc
+  File "/usr/local/lib/python2.7/site-packages/asyncio/__init__.py", line 9, in <module>
+    from . import selectors
+  File "/usr/local/lib/python2.7/site-packages/asyncio/selectors.py", line 39
+    "{!r}".format(fileobj)) from None
+                               ^
+SyntaxError: invalid syntax

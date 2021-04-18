@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 3, in <module>
+    from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
+ImportError: No module named contrib.linkextractors.sgml

@@ -1,0 +1,6 @@
+one-sample t-test 0.018137235176105812
+one-sample wilcoxon-test 0.026157182329284684
+two-sample t-test 0.0007989982111700593
+two-sample wilcoxon-test 0.0010608066929400244
+paired t-test 3.059020942934875e-07
+paired wilcoxon-test 0.0033300139117459797

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 11, in <module>
+    file_descriptor = open(sys.argv[1], 'rb')
+IndexError: list index out of range

@@ -1,0 +1,10 @@
+/usr/local/lib/python2.7/site-packages/gym/logger.py:30: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+Traceback (most recent call last):
+  File "snippet.py", line 144, in <module>
+    main()
+  File "snippet.py", line 94, in main
+    env.monitor.start(monitor_dir, force=True)
+  File "/usr/local/lib/python2.7/site-packages/gym/core.py", line 218, in __getattr__
+    return getattr(self.env, name)
+AttributeError: 'CartPoleEnv' object has no attribute 'monitor'

@@ -1,0 +1,6 @@
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+Traceback (most recent call last):
+  File "snippet.py", line 10, in <module>
+    serial = Serial.Serial('/dev/ttyACM0',9600)
+AttributeError: 'module' object has no attribute 'Serial'

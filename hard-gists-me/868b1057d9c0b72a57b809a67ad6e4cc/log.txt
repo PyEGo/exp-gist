@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "snippet.py", line 2, in <module>
+    from ete3 import PhyloTree, TreeStyle, SeqMotifFace, TextFace, RectFace
+  File "/usr/local/lib/python2.7/site-packages/ete3/__init__.py", line 51, in <module>
+    from .ncbi_taxonomy import *
+  File "/usr/local/lib/python2.7/site-packages/ete3/ncbi_taxonomy/__init__.py", line 40, in <module>
+    from .ncbiquery import *
+  File "/usr/local/lib/python2.7/site-packages/ete3/ncbi_taxonomy/ncbiquery.py", line 61, in <module>
+    import six
+ImportError: No module named six

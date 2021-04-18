@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 4, in <module>
+    from sklearn.metrics import zero_one_score
+ImportError: cannot import name zero_one_score

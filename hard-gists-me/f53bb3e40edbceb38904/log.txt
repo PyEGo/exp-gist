@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 24, in <module>
+    from numbapro import cuda, int16, float32, from_dtype
+ImportError: No module named numbapro

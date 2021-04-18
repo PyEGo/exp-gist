@@ -1,0 +1,2 @@
+/usr/local/lib/python2.7/site-packages/xgboost/core.py:614: UserWarning: Use subset (sliced data) of np.ndarray is not recommended because it will generate extra copies and increase memory consumption
+  "because it will generate extra copies and increase memory consumption")

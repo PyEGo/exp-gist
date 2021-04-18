@@ -1,0 +1,22 @@
+FROM python:2.7.13
+COPY snippet.py snippet.py
+RUN ["apt-get","update"]
+RUN ["pip","install","notifications-python-client"]
+RUN ["pip","install","geoplot"]
+RUN ["pip","install","17MonIP"]
+RUN ["pip","install","psycopg2"]
+RUN ["pip","install","dataset"]
+RUN ["apt-get","install","-y","python-pip"]
+RUN ["apt-get","install","-y","python-dev"]
+RUN ["apt-get","install","-y","build-essential"]
+RUN ["pip","install","Twisted"]
+RUN ["pip","install","IPy"]
+RUN ["pip","install","tensorlayer"]
+RUN ["pip","install","access_points"]
+RUN ["pip","install","ipython"]
+RUN ["pip","install","veriloggen"]
+RUN ["pip","install","numpy"]
+RUN ["pip","install","scipy"]
+RUN ["pip","install","datasets"]
+CMD ["python","snippet.py"]
+

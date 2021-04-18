@@ -1,0 +1,2 @@
+*  ERROR: No Image
+   usage: 'python script.py image-name.png'

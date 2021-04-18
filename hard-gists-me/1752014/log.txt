@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "snippet.py", line 130, in <module>
+    graph = processGraph([pid1, pid2])
+  File "snippet.py", line 60, in __init__
+    self.taskmgr = processMoniter(pids)
+  File "snippet.py", line 13, in __init__
+    self.cpu_nums = psutil.NUM_CPUS
+AttributeError: 'module' object has no attribute 'NUM_CPUS'

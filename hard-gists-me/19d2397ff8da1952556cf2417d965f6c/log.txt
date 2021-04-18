@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 21, in <module>
+    gbr.fit(X_train,y_train,monitor=monitor)
+NameError: name 'X_train' is not defined

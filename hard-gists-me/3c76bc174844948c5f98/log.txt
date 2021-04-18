@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "snippet.py", line 2, in <module>
+    from pipeline.packager import Packager
+  File "/usr/local/lib/python2.7/site-packages/pipeline/packager.py", line 110
+    print(f"Saving: {output_filename}")
+                                     ^
+SyntaxError: invalid syntax

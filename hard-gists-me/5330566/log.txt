@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 6, in <module>
+    from Quartz.CoreGraphics import *    # imports all of the top-level symbols in the module
+ImportError: No module named Quartz.CoreGraphics

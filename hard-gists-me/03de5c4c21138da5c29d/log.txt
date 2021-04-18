@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 28, in <module>
+    from tensorflow.models.embedding import gen_word2vec as word2vec
+ImportError: No module named models.embedding

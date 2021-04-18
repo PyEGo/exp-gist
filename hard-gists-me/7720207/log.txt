@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 4, in <module>
+    g = Github(G_USER, G_PASS)
+NameError: name 'G_USER' is not defined

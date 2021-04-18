@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 14, in <module>
+    from skein import skein1024
+ImportError: cannot import name skein1024

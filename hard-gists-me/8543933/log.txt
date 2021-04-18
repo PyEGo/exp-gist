@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "snippet.py", line 15, in <module>
+    from traitsui.api import Group, HGroup, Item, View, spring, Handler
+  File "/usr/local/lib/python2.7/site-packages/traitsui/api.py", line 37, in <module>
+    from .editors.api import (
+  File "/usr/local/lib/python2.7/site-packages/traitsui/editors/__init__.py", line 26, in <module>
+    from .api import (
+  File "/usr/local/lib/python2.7/site-packages/traitsui/editors/api.py", line 6, in <module>
+    from .array_editor import ArrayEditor
+  File "/usr/local/lib/python2.7/site-packages/traitsui/editors/array_editor.py", line 34, in <module>
+    from ..view import View
+  File "/usr/local/lib/python2.7/site-packages/traitsui/view.py", line 41, in <module>
+    from .ui import UI
+  File "/usr/local/lib/python2.7/site-packages/traitsui/ui.py", line 51, in <module>
+    from .handler import Handler, ViewHandler
+  File "/usr/local/lib/python2.7/site-packages/traitsui/handler.py", line 27, in <module>
+    from inspect import getfullargspec
+ImportError: cannot import name getfullargspec

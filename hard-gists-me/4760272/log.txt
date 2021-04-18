@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 41, in <module>
+    from .nbmanager import NotebookManager
+ValueError: Attempted relative import in non-package

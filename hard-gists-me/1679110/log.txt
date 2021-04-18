@@ -1,0 +1,2 @@
+usage: snippet.py [-h] [--color] DIRECTORY
+snippet.py: error: too few arguments

@@ -1,0 +1,7 @@
+Usage: snippet.py [-o FILENAME] [-u] [--unicode-compat] [-a] FILENAME
+Converts images into color sequences (xterm-256color)
+	-o FILENAME		Write color sequences to file instead of outputting to stdout
+	-u			Use unicode characters (U+2584 and U+2580) to allow 2x resolution on the same space
+	--unicode-compat	Try to be more compatible to terminals that are not xterm
+				Use this if it doesn't look like right
+	-a			Use alpha channel of image

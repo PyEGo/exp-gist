@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "snippet.py", line 5, in <module>
+    import slate;
+  File "/usr/local/lib/python2.7/site-packages/slate/__init__.py", line 48, in <module>
+    from slate import PDF
+  File "/usr/local/lib/python2.7/site-packages/slate/slate.py", line 3, in <module>
+    from pdfminer.pdfparser import PDFParser, PDFDocument
+ImportError: No module named pdfminer.pdfparser

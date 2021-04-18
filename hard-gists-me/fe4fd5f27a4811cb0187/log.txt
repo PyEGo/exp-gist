@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 53, in <module>
+    with open("katex_markdown.md") as f:
+IOError: [Errno 2] No such file or directory: 'katex_markdown.md'

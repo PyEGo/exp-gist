@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "snippet.py", line 23, in <module>
+    class FooForm(forms.ModelForm):
+  File "snippet.py", line 24, in FooForm
+    bar = forms.ModelChoiceField(queryset=Bar.all_objects,
+NameError: name 'Bar' is not defined

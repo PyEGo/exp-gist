@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "snippet.py", line 36, in <module>
+    read_templates()
+  File "snippet.py", line 21, in read_templates
+    templates.append(Image.open('{}.png'.format(i)))
+  File "/usr/local/lib/python2.7/site-packages/PIL/Image.py", line 2766, in open
+    fp = builtins.open(filename, "rb")
+IOError: [Errno 2] No such file or directory: '0.png'

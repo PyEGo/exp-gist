@@ -1,0 +1,9 @@
+downloading Olivetti faces from https://ndownloader.figshare.com/files/5976027 to /root/scikit_learn_data
+Traceback (most recent call last):
+  File "snippet.py", line 20, in <module>
+    my_face = imread(fname='me.gif', flatten = True)
+  File "/usr/local/lib/python2.7/site-packages/numpy/lib/utils.py", line 101, in newfunc
+    return func(*args, **kwds)
+  File "/usr/local/lib/python2.7/site-packages/scipy/ndimage/io.py", line 29, in imread
+    raise ImportError("Could not import the Python Imaging Library (PIL)"
+ImportError: Could not import the Python Imaging Library (PIL) required to load image files.  Please refer to http://pillow.readthedocs.org/en/latest/installation.html for installation instructions.

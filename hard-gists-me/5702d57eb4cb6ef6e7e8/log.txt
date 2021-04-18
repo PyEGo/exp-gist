@@ -1,0 +1,2 @@
+usage: snippet.py [-h] database
+snippet.py: error: too few arguments

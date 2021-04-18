@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 101, in <module>
+    app.run()
+NameError: name 'app' is not defined

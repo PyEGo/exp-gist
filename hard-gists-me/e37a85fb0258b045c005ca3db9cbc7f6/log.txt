@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "snippet.py", line 83, in <module>
+    freeze_graph(args.checkpoint_path, args.output_nodes, args.output_graph, args.rename_outputs)
+  File "snippet.py", line 14, in freeze_graph
+    input_checkpoint = checkpoint.model_checkpoint_path
+AttributeError: 'NoneType' object has no attribute 'model_checkpoint_path'

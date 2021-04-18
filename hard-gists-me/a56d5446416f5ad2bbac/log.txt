@@ -1,0 +1,5 @@
+WARNING (theano.tensor.blas): Using NumPy C-API based implementation for BLAS functions.
+Traceback (most recent call last):
+  File "snippet.py", line 4, in <module>
+    from theano.tensor.signal.downsample import max_pool_2d
+ImportError: No module named downsample

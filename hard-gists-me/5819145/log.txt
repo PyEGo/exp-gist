@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 9, in <module>
+    from trapeze import settings as trapeze_settings
+ImportError: cannot import name settings

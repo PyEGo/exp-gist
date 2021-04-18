@@ -1,0 +1,9 @@
+WARNING (theano.tensor.blas): Using NumPy C-API based implementation for BLAS functions.
+Traceback (most recent call last):
+  File "snippet.py", line 713, in <module>
+    iamondb = fetch_iamondb()
+  File "snippet.py", line 175, in fetch_iamondb
+    partial_path = check_fetch_iamondb()
+  File "snippet.py", line 148, in check_fetch_iamondb
+    raise ValueError(err)
+ValueError: Path /iamondb/lineStrokes-all.tar.gz does not exist! Download the lineStrokes-all.tar.gz, ascii-all.tar.gz, and task1.tar.gz files from http://www.iam.unibe.ch/fki/databases/iam-on-line-handwriting-database/download-the-iam-on-line-handwriting-database and place them in the directory /iamondb

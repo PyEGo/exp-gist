@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "snippet.py", line 3, in <module>
+    from django_filters import CharFilter
+  File "/usr/local/lib/python2.7/site-packages/django_filters/__init__.py", line 4, in <module>
+    from .filterset import FilterSet
+  File "/usr/local/lib/python2.7/site-packages/django_filters/filterset.py", line 184
+    def __init__(self, data=None, queryset=None, *, request=None, prefix=None):
+                                                  ^
+SyntaxError: invalid syntax

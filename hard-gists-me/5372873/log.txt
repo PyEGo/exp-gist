@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 10, in <module>
+    from sklearn.metrics import auc_score
+ImportError: cannot import name auc_score

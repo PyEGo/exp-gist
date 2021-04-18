@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 7, in <module>
+    from config import cfg
+ImportError: cannot import name cfg

@@ -1,0 +1,66 @@
+WARNING:tensorflow:From snippet.py:11: The name tf.logging.set_verbosity is deprecated. Please use tf.compat.v1.logging.set_verbosity instead.
+
+WARNING:tensorflow:From snippet.py:11: The name tf.logging.DEBUG is deprecated. Please use tf.compat.v1.logging.DEBUG instead.
+
+WARNING:root:Use of the keyword argument names (flag_name, default_value, docstring) is deprecated, please use (name, default, help) instead.
+WARNING:root:Use of the keyword argument names (flag_name, default_value, docstring) is deprecated, please use (name, default, help) instead.
+WARNING:tensorflow:From snippet.py:200: The name tf.train.SessionRunHook is deprecated. Please use tf.estimator.SessionRunHook instead.
+
+WARNING:tensorflow:From snippet.py:200: The name tf.train.SessionRunHook is deprecated. Please use tf.estimator.SessionRunHook instead.
+
+WARNING:tensorflow:From snippet.py:316: The name tf.app.run is deprecated. Please use tf.compat.v1.app.run instead.
+
+WARNING:tensorflow:From snippet.py:316: The name tf.app.run is deprecated. Please use tf.compat.v1.app.run instead.
+
+WARNING:tensorflow:From snippet.py:35: __init__ (from tensorflow.contrib.learn.python.learn.estimators.run_config) is deprecated and will be removed in a future version.
+Instructions for updating:
+When switching to tf.estimator.Estimator, use tf.estimator.RunConfig instead.
+W1018 06:09:37.616580 140081372219136 deprecation.py:323] From snippet.py:35: __init__ (from tensorflow.contrib.learn.python.learn.estimators.run_config) is deprecated and will be removed in a future version.
+Instructions for updating:
+When switching to tf.estimator.Estimator, use tf.estimator.RunConfig instead.
+WARNING:tensorflow:From snippet.py:42: run (from tensorflow.contrib.learn.python.learn.learn_runner) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.estimator.train_and_evaluate.
+W1018 06:09:37.617014 140081372219136 deprecation.py:323] From snippet.py:42: run (from tensorflow.contrib.learn.python.learn.learn_runner) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.estimator.train_and_evaluate.
+WARNING:tensorflow:uid (from tensorflow.contrib.learn.python.learn.estimators.run_config) is experimental and may change or be removed at any time, and without warning.
+W1018 06:09:37.617130 140081372219136 experimental.py:63] uid (from tensorflow.contrib.learn.python.learn.estimators.run_config) is experimental and may change or be removed at any time, and without warning.
+INFO:tensorflow:Using config: {'_save_checkpoints_secs': None, '_num_ps_replicas': 0, '_keep_checkpoint_max': 5, '_task_type': None, '_train_distribute': None, '_is_chief': True, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7f670d269dd0>, '_tf_config': gpu_options {
+  per_process_gpu_memory_fraction: 1.0
+}
+, '_protocol': None, '_save_checkpoints_steps': 100, '_keep_checkpoint_every_n_hours': 10000, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_model_dir': './mnist_training', '_tf_random_seed': None, '_master': '', '_device_fn': None, '_num_worker_replicas': 0, '_task_id': 0, '_log_step_count_steps': 100, '_experimental_max_worker_delay_secs': None, '_evaluation_master': '', '_eval_distribute': None, '_environment': 'local', '_save_summary_steps': 100}
+I1018 06:09:37.617953 140081372219136 estimator.py:209] Using config: {'_save_checkpoints_secs': None, '_num_ps_replicas': 0, '_keep_checkpoint_max': 5, '_task_type': None, '_train_distribute': None, '_is_chief': True, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7f670d269dd0>, '_tf_config': gpu_options {
+  per_process_gpu_memory_fraction: 1.0
+}
+, '_protocol': None, '_save_checkpoints_steps': 100, '_keep_checkpoint_every_n_hours': 10000, '_session_config': allow_soft_placement: true
+graph_options {
+  rewrite_options {
+    meta_optimizer_iterations: ONE
+  }
+}
+, '_model_dir': './mnist_training', '_tf_random_seed': None, '_master': '', '_device_fn': None, '_num_worker_replicas': 0, '_task_id': 0, '_log_step_count_steps': 100, '_experimental_max_worker_delay_secs': None, '_evaluation_master': '', '_eval_distribute': None, '_environment': 'local', '_save_summary_steps': 100}
+WARNING:tensorflow:From snippet.py:62: read_data_sets (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+W1018 06:09:37.618338 140081372219136 deprecation.py:323] From snippet.py:62: read_data_sets (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+WARNING:tensorflow:From /usr/local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:260: maybe_download (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please write your own downloading logic.
+W1018 06:09:37.618438 140081372219136 deprecation.py:323] From /usr/local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:260: maybe_download (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please write your own downloading logic.
+WARNING:tensorflow:From /usr/local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:252: wrapped_fn (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use urllib or similar directly.
+W1018 06:09:37.618669 140081372219136 deprecation.py:323] From /usr/local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:252: wrapped_fn (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use urllib or similar directly.

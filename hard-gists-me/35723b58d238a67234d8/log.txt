@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 51, in <module>
+    from robot.model import SuiteVisitor
+ImportError: No module named model

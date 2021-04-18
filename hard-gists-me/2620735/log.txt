@@ -1,0 +1,6 @@
+/usr/local/lib/python2.7/site-packages/IPython/kernel/__init__.py:13: ShimWarning: The `IPython.kernel` package has been deprecated since IPython 4.0.You should import from ipykernel or jupyter_client instead.
+  "You should import from ipykernel or jupyter_client instead.", ShimWarning)
+Traceback (most recent call last):
+  File "snippet.py", line 21, in <module>
+    from IPython.zmq.blockingkernelmanager import BlockingKernelManager as KernelManager
+ImportError: No module named zmq.blockingkernelmanager

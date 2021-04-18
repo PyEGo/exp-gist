@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 4, in <module>
+    from bokeh.models import ColumnDataSource, HoverTool, ResizeTool, SaveTool
+ImportError: cannot import name ResizeTool

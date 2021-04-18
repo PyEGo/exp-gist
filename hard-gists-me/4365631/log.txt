@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "snippet.py", line 33, in <module>
+    pl.subplot(2, 2, figure)
+  File "/usr/local/lib/python2.7/site-packages/matplotlib/pyplot.py", line 1056, in subplot
+    fig = gcf()
+  File "/usr/local/lib/python2.7/site-packages/matplotlib/pyplot.py", line 586, in gcf
+Points on flag:
+color
+    return figure()
+  File "/usr/local/lib/python2.7/site-packages/matplotlib/pyplot.py", line 533, in figure
+green    10291
+red       4709
+dtype: int64
+
+    **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/matplotlib/backend_bases.py", line 161, in new_figure_manager
+    return cls.new_figure_manager_given_figure(num, fig)
+  File "/usr/local/lib/python2.7/site-packages/matplotlib/backends/_backend_tk.py", line 1046, in new_figure_manager_given_figure
+    window = Tk.Tk(className="matplotlib")
+  File "/usr/local/lib/python2.7/lib-tk/Tkinter.py", line 1820, in __init__
+    self.tk = _tkinter.create(screenName, baseName, className, interactive, wantobjects, useTk, sync, use)
+_tkinter.TclError: no display name and no $DISPLAY environment variable

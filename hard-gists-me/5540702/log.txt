@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "snippet.py", line 60, in <module>
+    text2png(u"This is\na\ntest şğıöç zaa xd ve lorem hipster", 'test.png', fontfullpath = "font.ttf")
+  File "snippet.py", line 14, in text2png
+    fontlinkback = ImageFont.truetype('font.ttf', 8)
+  File "/usr/local/lib/python2.7/site-packages/PIL/ImageFont.py", line 640, in truetype
+    return freetype(font)
+  File "/usr/local/lib/python2.7/site-packages/PIL/ImageFont.py", line 637, in freetype
+    return FreeTypeFont(font, size, index, encoding, layout_engine)
+  File "/usr/local/lib/python2.7/site-packages/PIL/ImageFont.py", line 186, in __init__
+    font, size, index, encoding, layout_engine=layout_engine
+IOError: cannot open resource

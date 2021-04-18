@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "snippet.py", line 26, in <module>
+    map_fn = tf.python.functional_ops.map_fn
+  File "/usr/local/lib/python2.7/site-packages/tensorflow/python/util/deprecation_wrapper.py", line 106, in __getattr__
+    attr = getattr(self._dw_wrapped_module, name)
+AttributeError: 'module' object has no attribute 'python'

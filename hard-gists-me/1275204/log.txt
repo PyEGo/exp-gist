@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "snippet.py", line 5, in <module>
+    class UpdateBook(UpdateView):
+  File "snippet.py", line 7, in UpdateBook
+    model = Book
+NameError: name 'Book' is not defined

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 28, in <module>
+    import apt
+ImportError: No module named apt

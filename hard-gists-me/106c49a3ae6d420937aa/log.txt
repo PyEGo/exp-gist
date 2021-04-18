@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 3, in <module>
+    from PyQt4 import QtCore
+ImportError: No module named PyQt4

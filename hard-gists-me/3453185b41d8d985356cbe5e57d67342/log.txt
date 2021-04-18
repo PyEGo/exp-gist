@@ -1,0 +1,44 @@
+WARNING:tensorflow:From snippet.py:32: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-10-14 18:16:19.685895: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2020-10-14 18:16:19.709301: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3600000000 Hz
+2020-10-14 18:16:19.710216: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x380d1e0 executing computations on platform Host. Devices:
+2020-10-14 18:16:19.710266: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:tf.op_scope(values, name, default_name) is deprecated, use tf.name_scope(name, default_name, values)
+WARNING:tensorflow:From snippet.py:12: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+WARNING:tensorflow:From snippet.py:14: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+Traceback (most recent call last):
+  File "snippet.py", line 34, in <module>
+    y = mysquare(x)
+  File "snippet.py", line 24, in mysquare
+    grad=_MySquareGrad)  # <-- here's the call to the gradient
+  File "snippet.py", line 14, in py_func
+    return tf.py_func(func, inp, Tout, stateful=stateful, name=name)
+  File "/usr/local/lib/python2.7/site-packages/tensorflow/python/util/deprecation.py", line 324, in new_func
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/tensorflow/python/ops/script_ops.py", line 480, in py_func
+    return py_func_common(func, inp, Tout, stateful, name=name)
+  File "/usr/local/lib/python2.7/site-packages/tensorflow/python/ops/script_ops.py", line 462, in py_func_common
+    func=func, inp=inp, Tout=Tout, stateful=stateful, eager=False, name=name)
+  File "/usr/local/lib/python2.7/site-packages/tensorflow/python/ops/script_ops.py", line 257, in _internal_py_func
+    token = _py_funcs.insert(func)
+  File "/usr/local/lib/python2.7/site-packages/tensorflow/python/ops/script_ops.py", line 144, in insert
+    self._funcs[token] = func
+  File "/usr/local/lib/python2.7/weakref.py", line 108, in __setitem__
+    self.data[key] = KeyedRef(value, self._remove, key)
+  File "/usr/local/lib/python2.7/weakref.py", line 278, in __new__
+    self = ref.__new__(type, ob, callback)
+TypeError: cannot create weak reference to 'numpy.ufunc' object

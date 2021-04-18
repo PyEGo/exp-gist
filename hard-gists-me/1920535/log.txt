@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "snippet.py", line 8, in <module>
+    from sorl.thumbnail.engines.pil_engine import Engine
+  File "/usr/local/lib/python2.7/site-packages/sorl/thumbnail/__init__.py", line 1, in <module>
+    from sorl.thumbnail.fields import ImageField
+  File "/usr/local/lib/python2.7/site-packages/sorl/thumbnail/fields.py", line 8, in <module>
+    from sorl.thumbnail import default
+  File "/usr/local/lib/python2.7/site-packages/sorl/thumbnail/default.py", line 3, in <module>
+    from sorl.thumbnail.conf import settings
+  File "/usr/local/lib/python2.7/site-packages/sorl/thumbnail/conf/__init__.py", line 3, in <module>
+    from sorl.thumbnail.conf import defaults
+  File "/usr/local/lib/python2.7/site-packages/sorl/thumbnail/conf/defaults.py", line 35, in <module>
+    THUMBNAIL_STORAGE = settings.DEFAULT_FILE_STORAGE
+  File "/usr/local/lib/python2.7/site-packages/django/conf/__init__.py", line 56, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/site-packages/django/conf/__init__.py", line 39, in _setup
+    % (desc, ENVIRONMENT_VARIABLE))
+django.core.exceptions.ImproperlyConfigured: Requested setting DEFAULT_FILE_STORAGE, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.

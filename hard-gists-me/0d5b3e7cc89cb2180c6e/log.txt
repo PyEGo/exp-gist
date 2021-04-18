@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "snippet.py", line 78, in <module>
+    f=urllib.urlopen(url)
+  File "/usr/local/lib/python2.7/urllib.py", line 87, in urlopen
+(0, 0, '-29.4415323111,-51.998331666')
+    return opener.open(url)
+  File "/usr/local/lib/python2.7/urllib.py", line 213, in open
+    return getattr(self, name)(url)
+  File "/usr/local/lib/python2.7/urllib.py", line 350, in open_http
+    h.endheaders(data)
+  File "/usr/local/lib/python2.7/httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "/usr/local/lib/python2.7/httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python2.7/httplib.py", line 844, in send
+    self.connect()
+  File "/usr/local/lib/python2.7/httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "/usr/local/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+IOError: [Errno socket error] [Errno 110] Connection timed out

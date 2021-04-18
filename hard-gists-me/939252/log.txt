@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "snippet.py", line 28, in <module>
+    image_width, image_height = images[0].size
+IndexError: list index out of range
+0
+0 images will be combined.

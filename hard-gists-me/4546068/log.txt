@@ -1,0 +1,2 @@
+pycrypto: 0.97s
+M2Crypto: 0.32s

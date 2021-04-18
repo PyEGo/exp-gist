@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 9, in <module>
+    from django.db.models.sql.aggregates import Aggregate as SQLAggregate
+ImportError: No module named aggregates

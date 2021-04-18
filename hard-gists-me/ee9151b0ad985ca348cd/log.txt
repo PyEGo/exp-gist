@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 22, in <module>
+    import inkex, simplepath, simpletransform, cubicsuperpath, cspsubdiv, dxf_templates_b2, re
+ImportError: No module named inkex

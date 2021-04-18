@@ -1,0 +1,4 @@
+usage: snippet.py [-h] [--alt-text ALT_TEXT] [--best] [--format FORMAT]
+                  [--pause PAUSE] [--quality QUALITY] [--s3]
+                  output_path
+snippet.py: error: too few arguments

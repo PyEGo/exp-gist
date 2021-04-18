@@ -1,0 +1,10 @@
+/usr/local/lib/python2.7/site-packages/IPython/frontend.py:21: ShimWarning: The top-level `frontend` package has been deprecated since IPython 1.0. All its subpackages have been moved to the top `IPython` level.
+  "All its subpackages have been moved to the top `IPython` level.", ShimWarning)
+/usr/local/lib/python2.7/site-packages/IPython/html.py:14: ShimWarning: The `IPython.html` package has been deprecated since IPython 4.0. You should import from `notebook` instead. `IPython.html.widgets` has moved to `ipywidgets`.
+  "`IPython.html.widgets` has moved to `ipywidgets`.", ShimWarning)
+Traceback (most recent call last):
+  File "snippet.py", line 99, in <module>
+    from IPython.frontend.html.notebook import notebookapp
+ImportError: cannot import name notebookapp
+You don't seem to have IPython installed, or the dependencies of 
+ipython notebook are not met.

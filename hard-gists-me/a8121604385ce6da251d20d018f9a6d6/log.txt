@@ -1,0 +1,6 @@
+WARNING:tensorflow:From snippet.py:22: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+Traceback (most recent call last):
+  File "snippet.py", line 22, in <module>
+    _z = tf.placeholder(tf.float32, shape=(batch_size, rand_dim))
+NameError: name 'batch_size' is not defined

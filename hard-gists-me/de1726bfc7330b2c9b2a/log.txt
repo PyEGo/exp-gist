@@ -1,0 +1,9 @@
+Tests passed.
+Tests passed.
+Tests passed.
+Root is at:  0
+f(x) at root is:  0
+Root is at:  0.628666978778
+f(x) at root is:  -1.80433445962e-12
+Root is at:  1
+f(x) at root is:  0

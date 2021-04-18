@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "snippet.py", line 1, in <module>
+    import RPi.GPIO as GPIO
+  File "/usr/local/lib/python2.7/site-packages/RPi/GPIO/__init__.py", line 23, in <module>
+    from RPi._GPIO import *
+RuntimeError: This module can only be run on a Raspberry Pi!

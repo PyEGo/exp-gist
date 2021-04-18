@@ -1,0 +1,15 @@
+Unhandled exception in thread started by <function fill_hosts at 0x7f527fdaca28>
+Traceback (most recent call last):
+  File "snippet.py", line 212, in fill_hosts
+    for host in ip_ranges():
+(10240, 1048576)
+1
+2.7.13 (default, Sep 14 2017, 23:43:58) 
+[GCC 4.9.2]
+Tornado version: 5.1.1
+Go go go
+  File "snippet.py", line 195, in ip_ranges
+    ip = int_to_ip(ip)
+  File "snippet.py", line 188, in int_to_ip
+    return socket.inet_ntoa(ip.to_bytes(4, 'big'))
+AttributeError: 'int' object has no attribute 'to_bytes'

@@ -1,0 +1,6 @@
+/usr/local/lib/python2.7/site-packages/IPython/parallel.py:13: ShimWarning: The `IPython.parallel` package has been deprecated since IPython 4.0. You should import from ipyparallel instead.
+  "You should import from ipyparallel instead.", ShimWarning)
+Traceback (most recent call last):
+  File "snippet.py", line 3, in <module>
+    from IPython.parallel import Client
+ImportError: cannot import name Client

@@ -1,0 +1,7 @@
+sh: 1: lame: not found
+Traceback (most recent call last):
+  File "snippet.py", line 9, in <module>
+    data = wav.read(oname)
+  File "/usr/local/lib/python2.7/site-packages/scipy/io/wavfile.py", line 233, in read
+    fid = open(filename, 'rb')
+IOError: [Errno 2] No such file or directory: 'temp.wav'

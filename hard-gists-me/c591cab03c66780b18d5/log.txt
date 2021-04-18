@@ -1,0 +1,10 @@
+/usr/local/lib/python2.7/site-packages/IPython/config.py:13: ShimWarning: The `IPython.config` package has been deprecated since IPython 4.0. You should import from traitlets.config instead.
+  "You should import from traitlets.config instead.", ShimWarning)
+/usr/local/lib/python2.7/site-packages/IPython/utils/traitlets.py:5: UserWarning: IPython.utils.traitlets has moved to a top-level traitlets package.
+  warn("IPython.utils.traitlets has moved to a top-level traitlets package.")
+/usr/local/lib/python2.7/site-packages/IPython/nbconvert.py:13: ShimWarning: The `IPython.nbconvert` package has been deprecated since IPython 4.0. You should import from nbconvert instead.
+  "You should import from nbconvert instead.", ShimWarning)
+Traceback (most recent call last):
+  File "snippet.py", line 38, in <module>
+    from IPython.nbconvert.nbconvertapp import NbConvertApp
+ImportError: No module named nbconvertapp

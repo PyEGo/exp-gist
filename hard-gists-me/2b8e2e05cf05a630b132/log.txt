@@ -1,0 +1,70 @@
+WARNING:tensorflow:From snippet.py:6: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
+
+2020-10-14 11:16:52.860612: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2020-10-14 11:16:52.885328: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3600000000 Hz
+2020-10-14 11:16:52.886158: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x3887610 executing computations on platform Host. Devices:
+2020-10-14 11:16:52.886200: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From snippet.py:14: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From snippet.py:19: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From snippet.py:32: The name tf.log is deprecated. Please use tf.math.log instead.
+
+WARNING:tensorflow:From snippet.py:33: The name tf.train.GradientDescentOptimizer is deprecated. Please use tf.compat.v1.train.GradientDescentOptimizer instead.
+
+WARNING:tensorflow:From /usr/local/lib/python2.7/site-packages/tensorflow/python/util/tf_should_use.py:193: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+2020-10-14 11:16:52.961490: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+step 0 : entropy 2.7724388
+step 1 : entropy 2.771674
+step 2 : entropy 2.7713223
+step 3 : entropy 2.770598
+step 4 : entropy 2.7701392
+step 5 : entropy 2.768887
+step 6 : entropy 2.7687054
+step 7 : entropy 2.7670689
+step 8 : entropy 2.7663274
+step 9 : entropy 2.7647963
+step 10 : entropy 2.7634437
+step 11 : entropy 2.7610822
+step 12 : entropy 2.7597535
+step 13 : entropy 2.7562063
+step 14 : entropy 2.75387
+step 15 : entropy 2.749911
+step 16 : entropy 2.7458658
+step 17 : entropy 2.7401376
+step 18 : entropy 2.735466
+step 19 : entropy 2.7264638
+step 20 : entropy 2.7196426
+step 21 : entropy 2.7088804
+step 22 : entropy 2.6980176
+step 23 : entropy 2.6825562
+step 24 : entropy 2.67056
+step 25 : entropy 2.646671
+step 26 : entropy 2.6308517
+step 27 : entropy 2.6001158
+step 28 : entropy 2.5786574
+step 29 : entropy 2.5324004
+step 30 : entropy 2.5150037
+step 31 : entropy 2.4502044
+step 32 : entropy 2.4278252
+step 33 : entropy 2.3556225
+step 34 : entropy 2.3311782
+step 35 : entropy 2.2650032
+step 36 : entropy 2.168662
+step 37 : entropy 2.1336887
+step 38 : entropy 2.03779
+step 39 : entropy 1.9857259
+step 40 : entropy 1.9296991
+step 41 : entropy 1.8016217
+step 42 : entropy 1.7485881
+step 43 : entropy 1.6686683
+step 44 : entropy 1.5378261
+step 45 : entropy 1.4624481
+step 46 : entropy 1.3655343
+step 47 : entropy 1.2438937
+step 48 : entropy 1.1401991
+step 49 : entropy 1.0520761
+accuracy 1.0
+[0 1 1 0]

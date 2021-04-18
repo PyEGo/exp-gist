@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "snippet.py", line 441, in <module>
+    count_group_likes()
+  File "snippet.py", line 221, in count_group_likes
+    start_date = int("start_date_goes_here")
+ValueError: invalid literal for int() with base 10: 'start_date_goes_here'

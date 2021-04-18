@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "snippet.py", line 341, in <module>
+    main(args)
+  File "snippet.py", line 124, in main
+    train_filenames, train_labels = list_images(args.train_dir)
+  File "snippet.py", line 79, in list_images
+    labels = os.listdir(directory)
+OSError: [Errno 2] No such file or directory: 'coco-animals/train'

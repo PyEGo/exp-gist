@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 4, in <module>
+    from django.db.models.query import QuerySet, ValuesQuerySet
+ImportError: cannot import name ValuesQuerySet

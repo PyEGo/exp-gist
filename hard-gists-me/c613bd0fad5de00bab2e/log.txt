@@ -1,0 +1,2 @@
+usage: snippet.py [-h] -e EMAIL
+snippet.py: error: argument -e/--email is required

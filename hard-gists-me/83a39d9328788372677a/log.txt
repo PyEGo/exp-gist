@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "snippet.py", line 4, in <module>
+    import vtk
+  File "/usr/local/lib/python2.7/site-packages/vtk/__init__.py", line 12, in <module>
+    from .vtkOpenGLKit import *
+  File "/usr/local/lib/python2.7/site-packages/vtk/vtkOpenGLKit.py", line 9, in <module>
+    from vtkOpenGLKitPython import *
+ImportError: No module named vtkOpenGLKitPython

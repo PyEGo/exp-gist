@@ -1,0 +1,23 @@
+Generating a 1024 bit private/public key pair for Alice...
+................................++++++
+.++++++
+Generating a 1024 bit private/public key pair for Bob...
+......++++++
+..............................++++++
+
+Alice's encrypted message to Bob:
+jo1/vvj17YEZj5i9qCyr/NlCUCnv1yXG0vesvRUsbkRqGxYCPsoowsVGVKiclTmbnLquEe1m+S+1
+QkkPnd/wNiX+7vVkVlT+RQ2xQm45dy2OuFNJC77bQoM9FJwON/f61W2VigCCXvQw9D7g9ThEXtAn
+Sj+JD6JdSuxAyMPzFS0=
+
+Alice's signature for this message:
+AqLUDhlHoG3ULrv7DIZxKYybDc1ZWZtN7Psg+Z6kmFbastir30dXsNWLs4aaAf9z8LwyPpzGaHXo
+W/3Zsuvi/CiltQC6YcJ399MMzk0dou1uC0otd7oTdFf48lceWndYz0SKBIaVGG8XijBT/htWSQuy
+3nY6YKw0MD/R/LRqE/I=
+
+Bob's signature for the string:
+SzONR+qEebFHocRKgJofsWBrZ74F/3oNRY18fsdTtSO6eB40LnyI27RbNA+ixYB7qoHGA7Bwj3c/
+EBGV6W2h+E19Wx54pQnYzcJaHfuN08PRgyVcJJVQwm9IQ1Kam0/B5vkWamKNjEirY5XTtQHEGvu/
+o4X7wRq1nMhe8K0o79U=
+
+The string was successfully verified.

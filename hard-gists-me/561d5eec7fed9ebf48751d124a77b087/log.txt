@@ -1,0 +1,32 @@
+WARNING:tensorflow:From snippet.py:10: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-10-16 05:12:47.579296: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2020-10-16 05:12:47.601272: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3600000000 Hz
+2020-10-16 05:12:47.602204: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x3ebac60 executing computations on platform Host. Devices:
+2020-10-16 05:12:47.602242: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From snippet.py:11: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+WARNING:tensorflow:From /usr/local/lib/python2.7/site-packages/tensorflow/python/util/tf_should_use.py:193: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+2020-10-16 05:12:47.616678: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+WARNING:tensorflow:From /usr/local/lib/python2.7/site-packages/tensorflow/python/ops/math_grad.py:1205: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+Traceback (most recent call last):
+  File "snippet.py", line 18, in <module>
+    print x.eval(), y.eval(), z.eval(), tf.gradients(z, x)[0].eval()
+  File "/usr/local/lib/python2.7/site-packages/tensorflow/python/ops/gradients_impl.py", line 158, in gradients
+[10.  2.] [10.  2.] -104.0
+    unconnected_gradients)
+  File "/usr/local/lib/python2.7/site-packages/tensorflow/python/ops/gradients_util.py", line 731, in _GradientsHelper
+    lambda: grad_fn(op, *out_grads))
+  File "/usr/local/lib/python2.7/site-packages/tensorflow/python/ops/gradients_util.py", line 403, in _MaybeCompile
+    return grad_fn()  # Exit early
+  File "/usr/local/lib/python2.7/site-packages/tensorflow/python/ops/gradients_util.py", line 731, in <lambda>
+    lambda: grad_fn(op, *out_grads))
+  File "snippet.py", line 7, in _GuidedReluGrad
+    return tf.select(0. < grad, gen_nn_ops._relu_grad(grad, op.outputs[0]), tf.zeros(grad.get_shape()))
+  File "/usr/local/lib/python2.7/site-packages/tensorflow/python/util/deprecation_wrapper.py", line 106, in __getattr__
+    attr = getattr(self._dw_wrapped_module, name)
+AttributeError: 'module' object has no attribute 'select'

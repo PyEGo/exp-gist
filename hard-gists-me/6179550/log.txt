@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "snippet.py", line 2, in <module>
+    from apiclient.discovery import build
+  File "/usr/local/lib/python2.7/site-packages/apiclient/__init__.py", line 18, in <module>
+    from googleapiclient import channel
+  File "/usr/local/lib/python2.7/site-packages/googleapiclient/channel.py", line 63, in <module>
+    from googleapiclient import errors
+  File "/usr/local/lib/python2.7/site-packages/googleapiclient/errors.py", line 26, in <module>
+    from oauth2client import util
+ImportError: cannot import name util

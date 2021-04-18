@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 6, in <module>
+    from PyKDE4.kdeui import KWallet
+ImportError: No module named PyKDE4.kdeui

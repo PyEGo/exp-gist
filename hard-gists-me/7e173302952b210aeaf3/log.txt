@@ -1,0 +1,13 @@
+times for 1 million calls
+adding 2 numbers with cffi wrapper:
+Traceback (most recent call last):
+  File "snippet.py", line 102, in <module>
+    print timeit("ccy.pysum(55, 55)", setup="from __main__ import ccy")
+  File "/usr/local/lib/python2.7/timeit.py", line 237, in timeit
+    return Timer(stmt, setup, timer).timeit(number)
+  File "/usr/local/lib/python2.7/timeit.py", line 202, in timeit
+    timing = self.inner(it, self.timer)
+  File "<timeit-src>", line 6, in inner
+AttributeError: 'module' object has no attribute 'pysum'
+0.150723934174
+adding 2 numbers with cython wrapper:

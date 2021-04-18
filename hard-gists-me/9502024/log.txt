@@ -1,0 +1,11 @@
+/usr/local/lib/python2.7/site-packages/selenium/webdriver/phantomjs/webdriver.py:49: UserWarning: Selenium support for PhantomJS has been deprecated, please use headless versions of Chrome or Firefox instead
+  warnings.warn('Selenium support for PhantomJS has been deprecated, please use headless '
+Traceback (most recent call last):
+  File "snippet.py", line 13, in <module>
+    driver = webdriver.PhantomJS(executable_path="node_modules/phantomjs/bin/phantomjs")
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/phantomjs/webdriver.py", line 56, in __init__
+    self.service.start()
+  File "/usr/local/lib/python2.7/site-packages/selenium/webdriver/common/service.py", line 83, in start
+    os.path.basename(self.path), self.start_error_message)
+selenium.common.exceptions.WebDriverException: Message: 'phantomjs' executable needs to be in PATH. 
+

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 2, in <module>
+    from tensorflow.python.summary.event_accumulator import EventAccumulator
+ImportError: No module named tensorflow.python.summary.event_accumulator

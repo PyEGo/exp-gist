@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 20, in <module>
+    pred = pred/float(len(os.listdir(dir_with_models)))
+TypeError: unsupported operand type(s) for /: 'NoneType' and 'float'

@@ -1,0 +1,2 @@
+GIFMAKER -- create GIF animations
+Usage: gifmaker infile outfile

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "snippet.py", line 1, in <module>
+    from rest_framework.permissions import BasePermission
+  File "/usr/local/lib/python2.7/site-packages/rest_framework/permissions.py", line 6, in <module>
+    from django.http import Http404
+ImportError: No module named django.http

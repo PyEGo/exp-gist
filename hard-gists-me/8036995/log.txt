@@ -1,0 +1,57 @@
+--
+[[10, 15, 14, 21, 20], [19, 7, 12, 17], [22, 23, 4, 3, 0], [24, 14, 16, 18, 25], [5, 26, 27], [9, 1, 0, 3, 2, 8], [12, 7, 6, 4, 3, 2, 11], [13, 8, 2, 11], [28, 29, 0, 1], [18, 19, 7, 6, 5, 30, 31], [17, 12, 11, 13, 15, 14, 16], [32, 1, 9, 10, 33], [34, 35, 5, 6, 4], [19, 17, 16, 18], [15, 10, 9, 8, 13]]
+--
+[[ 0.51204146  0.28170809]
+ [ 0.31568864  0.2231658 ]
+ [ 0.60181497  0.48198612]
+ [ 0.61195783  0.46638446]
+ [ 0.76349576  0.49961565]
+ [ 0.86163554  0.77300743]
+ [ 0.82428491  0.74711566]
+ [ 0.5955872   0.86737793]
+ [ 0.3398531   0.5360898 ]
+ [ 0.20717026  0.45505837]
+ [ 0.19839983  0.46568522]
+ [ 0.54203769  0.60556533]
+ [ 0.52991347  0.64525971]
+ [ 0.34632775  0.58619376]
+ [ 0.28095359  0.68979933]
+ [ 0.27956806  0.65401536]
+ [ 0.32776593  0.71199644]
+ [ 0.40994669  0.69667456]
+ [ 0.41517255  1.51501742]
+ [ 0.46233568  1.32637502]
+ [-1.51846216  1.25291487]
+ [-1.42673123  1.49674306]
+ [ 1.80180548 -1.09809421]
+ [ 2.5145059  -0.20841621]
+ [-1.42673123  1.49674306]
+ [ 0.11182282  3.37923966]
+ [ 2.73878052  0.56402822]
+ [ 0.92996562  2.66051282]
+ [-0.89071967 -1.23008044]
+ [ 1.80180548 -1.09809421]
+ [ 0.92996562  2.66051282]
+ [ 0.11182282  3.37923966]
+ [-0.89071967 -1.23008044]
+ [-1.51846216  1.25291487]
+ [ 2.5145059  -0.20841621]
+ [ 2.73878052  0.56402822]]
+Traceback (most recent call last):
+  File "snippet.py", line 105, in <module>
+    plt.fill(*zip(*polygon), alpha=0.4)
+  File "/usr/local/lib/python2.7/site-packages/matplotlib/pyplot.py", line 3025, in fill
+    ax = gca()
+  File "/usr/local/lib/python2.7/site-packages/matplotlib/pyplot.py", line 969, in gca
+    return gcf().gca(**kwargs)
+  File "/usr/local/lib/python2.7/site-packages/matplotlib/pyplot.py", line 586, in gcf
+    return figure()
+  File "/usr/local/lib/python2.7/site-packages/matplotlib/pyplot.py", line 533, in figure
+    **kwargs)
+  File "/usr/local/lib/python2.7/site-packages/matplotlib/backend_bases.py", line 161, in new_figure_manager
+    return cls.new_figure_manager_given_figure(num, fig)
+  File "/usr/local/lib/python2.7/site-packages/matplotlib/backends/_backend_tk.py", line 1046, in new_figure_manager_given_figure
+    window = Tk.Tk(className="matplotlib")
+  File "/usr/local/lib/python2.7/lib-tk/Tkinter.py", line 1820, in __init__
+    self.tk = _tkinter.create(screenName, baseName, className, interactive, wantobjects, useTk, sync, use)
+_tkinter.TclError: no display name and no $DISPLAY environment variable

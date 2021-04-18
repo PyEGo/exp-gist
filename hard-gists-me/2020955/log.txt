@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 23, in <module>
+    from sklearn import svm, linear_model, cross_validation
+ImportError: cannot import name cross_validation

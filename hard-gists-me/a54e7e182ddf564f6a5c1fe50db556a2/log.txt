@@ -1,0 +1,2 @@
+Downloading 20news dataset. This may take a few minutes.
+Downloading dataset from https://ndownloader.figshare.com/files/5975967 (14 MB)

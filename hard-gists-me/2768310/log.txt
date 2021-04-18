@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "snippet.py", line 15, in <module>
+    from djangotoolbox.fields import BlobField
+  File "/usr/local/lib/python2.7/site-packages/djangotoolbox/fields.py", line 4, in <module>
+    from django.utils.importlib import import_module
+ImportError: No module named importlib

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 12, in <module>
+    from scipy.misc import lena
+ImportError: cannot import name lena

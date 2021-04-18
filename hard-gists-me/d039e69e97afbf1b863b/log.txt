@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 7, in <module>
+    from sklearn.cross_validation import cross_val_score
+ImportError: No module named cross_validation

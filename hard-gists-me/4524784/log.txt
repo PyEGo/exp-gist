@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 3, in <module>
+    from django.utils.importlib import import_module
+ImportError: No module named importlib

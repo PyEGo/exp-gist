@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "snippet.py", line 3, in <module>
+    class Thing(models.Model):
+  File "/usr/local/lib/python2.7/site-packages/django/db/models/base.py", line 110, in __new__
+    app_config = apps.get_containing_app_config(module)
+  File "/usr/local/lib/python2.7/site-packages/django/apps/registry.py", line 247, in get_containing_app_config
+    self.check_apps_ready()
+  File "/usr/local/lib/python2.7/site-packages/django/apps/registry.py", line 125, in check_apps_ready
+    raise AppRegistryNotReady("Apps aren't loaded yet.")
+django.core.exceptions.AppRegistryNotReady: Apps aren't loaded yet.

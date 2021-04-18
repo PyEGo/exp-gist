@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 7, in <module>
+    from google.cloud.vision import types as GoogleTypes
+ImportError: cannot import name types

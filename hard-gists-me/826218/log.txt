@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 21, in <module>
+    from wphp import PHPApp
+ImportError: No module named wphp

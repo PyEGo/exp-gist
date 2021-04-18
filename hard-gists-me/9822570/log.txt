@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 151, in <module>
+    X = scipy.misc.lena()
+AttributeError: 'module' object has no attribute 'misc'

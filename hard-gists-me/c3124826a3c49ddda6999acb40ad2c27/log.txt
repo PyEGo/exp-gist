@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "snippet.py", line 99, in <module>
+    p = SM1_21(port='/dev/tty.SM1-21-SerialPortDevB')
+  File "snippet.py", line 11, in __init__
+    self.printer = serial.Serial(port, baud)
+AttributeError: 'module' object has no attribute 'Serial'

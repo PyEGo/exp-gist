@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "snippet.py", line 7, in <module>
+    class Command(BaseCommand):
+  File "snippet.py", line 13, in Command
+    option_list = BaseCommand.option_list + (
+AttributeError: type object 'BaseCommand' has no attribute 'option_list'

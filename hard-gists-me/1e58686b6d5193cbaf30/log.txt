@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "snippet.py", line 14, in <module>
+    env = Environment(loader=PackageLoader('openwpm-deploy', 'templates'))
+  File "/usr/local/lib/python2.7/site-packages/jinja2/loaders.py", line 237, in __init__
+    provider = get_provider(package_name)
+  File "/usr/local/lib/python2.7/site-packages/pkg_resources/__init__.py", line 440, in get_provider
+    __import__(moduleOrReq)
+ImportError: No module named openwpm-deploy

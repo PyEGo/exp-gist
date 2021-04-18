@@ -1,0 +1,15 @@
+WARNING:tensorflow:From snippet.py:18: __init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+WARNING:tensorflow:From snippet.py:19: The name tf.GraphDef is deprecated. Please use tf.compat.v1.GraphDef instead.
+
+Traceback (most recent call last):
+  File "snippet.py", line 26, in <module>
+    graphdef_to_pbtxt('graph.pb')  # here you can write the name of the file to be converted
+  File "snippet.py", line 20, in graphdef_to_pbtxt
+    graph_def.ParseFromString(f.read())
+  File "/usr/local/lib/python2.7/site-packages/tensorflow/python/lib/io/file_io.py", line 122, in read
+    self._preread_check()
+  File "/usr/local/lib/python2.7/site-packages/tensorflow/python/lib/io/file_io.py", line 84, in _preread_check
+    compat.as_bytes(self.__name), 1024 * 512)
+tensorflow.python.framework.errors_impl.NotFoundError: graph.pb; No such file or directory

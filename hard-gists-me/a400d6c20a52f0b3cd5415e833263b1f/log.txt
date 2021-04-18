@@ -1,0 +1,1 @@
+Usage: decode_vcrpy.py path/to/fixture.yaml [response number, ex '0']

@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "snippet.py", line 57, in <module>
+    findHIDDevice(mbed_vendor_id, mbed_product_id)
+  File "snippet.py", line 19, in findHIDDevice
+    hid_device = usb.core.find(idVendor=mbed_vendor_id,idProduct=mbed_product_id)
+  File "/usr/local/lib/python2.7/site-packages/usb/core.py", line 1303, in find
+    return _interop._next(device_iter(**args))
+  File "/usr/local/lib/python2.7/site-packages/usb/_interop.py", line 68, in _next
+    return next(iter)
+  File "/usr/local/lib/python2.7/site-packages/usb/core.py", line 1280, in device_iter
+    for dev in backend.enumerate_devices():
+  File "/usr/local/lib/python2.7/site-packages/usb/backend/libusb0.py", line 456, in enumerate_devices
+    _check(_lib.usb_find_busses())
+  File "/usr/local/lib/python2.7/site-packages/usb/backend/libusb0.py", line 447, in _check
+    raise USBError(errmsg, ret)
+usb.core.USBError: [Errno None] couldn't opendir(): No such file or directory

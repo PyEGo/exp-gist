@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "snippet.py", line 11, in <module>
+    with rio.open(argv[1]) as src:
+IndexError: list index out of range

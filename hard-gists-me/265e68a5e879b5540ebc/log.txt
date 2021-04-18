@@ -1,0 +1,24 @@
+WARNING:tensorflow:From snippet.py:11: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From snippet.py:16: initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+WARNING:tensorflow:From snippet.py:31: The name tf.unsorted_segment_sum is deprecated. Please use tf.math.unsorted_segment_sum instead.
+
+WARNING:tensorflow:From /usr/local/lib/python2.7/site-packages/tensorflow/python/util/tf_should_use.py:193: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+WARNING:tensorflow:From snippet.py:46: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-10-14 05:10:11.021292: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2020-10-14 05:10:11.045611: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3600000000 Hz
+2020-10-14 05:10:11.046398: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x33a8cc0 executing computations on platform Host. Devices:
+2020-10-14 05:10:11.046438: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-10-14 05:10:11.081894: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+Found in 0.18 seconds 16 iterations
+Centroids:
+[[0.25161317 0.7447514 ]
+ [0.7461837  0.75342715]
+ [0.7454138  0.25492492]
+ [0.24510805 0.24832833]]
+Cluster assignments: [0 1 3 ... 2 2 3]

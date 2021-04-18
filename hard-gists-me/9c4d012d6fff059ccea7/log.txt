@@ -1,0 +1,8 @@
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+Traceback (most recent call last):
+  File "snippet.py", line 327, in <module>
+    test()
+  File "snippet.py", line 322, in test
+    c = open("test.txt", "rb").read().decode("utf-8")
+IOError: [Errno 2] No such file or directory: 'test.txt'
