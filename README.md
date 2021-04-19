@@ -38,15 +38,14 @@ Experimental results on hard-gists dataset
 ...
 └── <gist-id>
 ```
-* **hard-gists-ego-s2** and **hard-gists-ego-s3** stores PyEGo-generated Dockerfile( respectively implement strategy 2 and 3).<br/>
-  The folder structure is the same as hard-gists-ego's(implement default strategy, strategy1)<br/>
+* **hard-gists-ego-s2** stores PyEGo-generated Dockerfile(implement select-all strategy).<br/>
+  The folder structure is the same as hard-gists-ego's(implement default strategy, select-one)<br/>
   Our strategies are describe as follow:
   
-  |id|select strategy|optimization objective |
-  |----|-----|-----|
-  |1|select-one|approximate|
-  |2|select-all|approximate|
-  |3|select-one|exact|
+  |id|select strategy|
+  |----|-----|
+  |1|select-one|
+  |2|select-all|
   
 * **Log** folder stores execution logs. 
   We dockerize projects(build docker images and run images in container) based on Dockerfile or requirements.txt,
@@ -56,9 +55,8 @@ Experimental results on hard-gists dataset
 .
 ├── PyEGo.log # log for PyEGo(implement strategy1)
 ├── PyEGo-s2.log # log for PyEGo(implement strategy2)
-├── PyEGo-s3.log # log for PyEGo(implement strategy3)
 ├── DockerizeMe.log # log for DockerizeMe
 └── Pipreqs.log # log for Pipreqs
 ```  
-* **results.csv** stores results of experiments on all projects.
+* **results_hard_gists.csv** stores results of experiments on all projects.
 
