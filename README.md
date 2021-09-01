@@ -46,8 +46,8 @@ Experimental results on hard-gists dataset
   The folder structure is as follow:
 ```$xslt
 .
-├── PyEGo.log # log of PyEGo(implement strategy1)
-├── PyEGo-s2.log # log of PyEGo(implement strategy2)
+├── PyEGo.log # log of PyEGo
+├── PyEGo-s2.log # log of PyEGo(implement select-all strategy)
 ├── DockerizeMe.log # log of DockerizeMe
 └── Pipreqs.log # log of Pipreqs
 ```  
