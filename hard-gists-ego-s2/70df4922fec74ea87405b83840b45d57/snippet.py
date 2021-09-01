@@ -37,6 +37,7 @@ while(True):
 
     # To stop duplicate images
     currentFrame += 1
+    break
 
 # When everything done, release the capture
 cap.release()

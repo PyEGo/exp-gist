@@ -1,5 +1,4 @@
 FROM debian:10
-RUN sed -i s@/archive.ubuntu.com/@/mirrors.aliyun.com/@g /etc/apt/sources.list
 RUN apt-get clean
 RUN apt-get update
 RUN apt-get install python3 python3-pip -y
@@ -8,10 +7,10 @@ RUN cp /usr/bin/pip3 /usr/bin/pip
 RUN apt-get update
 RUN pip install --upgrade pip
 RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+RUN apt-get install python3-pyproj -y
 RUN apt-get install python3-geopy -y
 RUN apt-get install python3-geographiclib -y
-RUN apt-get install python3-pyproj -y
-RUN pip install geopy==2.0.0
+RUN pip install geopy==2.1.0
 ADD snippet.py snippet.py
 # add CMD command to run your programs here
 CMD python snippet.py

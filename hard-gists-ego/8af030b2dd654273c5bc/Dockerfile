@@ -1,4 +1,4 @@
-FROM python:2.7
+FROM python:2.7-buster
 RUN sed -i s@/archive.ubuntu.com/@/mirrors.aliyun.com/@g /etc/apt/sources.list
 RUN apt-get clean
 RUN apt-get update
@@ -11,7 +11,7 @@ RUN pip install --upgrade pip
 RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 RUN pip install numpy==1.16.6
 RUN pip install psycopg2==2.5.5
-RUN pip install tqdm==4.54.1
+RUN pip install tqdm==4.60.0
 RUN pip install theano==1.0.5
 RUN pip install matplotlib==2.1.2
 RUN pip install scikit-learn==0.20.4

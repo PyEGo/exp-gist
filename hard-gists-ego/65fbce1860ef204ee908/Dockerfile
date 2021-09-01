@@ -1,4 +1,4 @@
-FROM python:2.7.13
+FROM python:2.7-buster.13
 
 LABEL maintainer="otc@gmail.com"
 

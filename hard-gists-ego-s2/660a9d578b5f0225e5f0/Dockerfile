@@ -13,8 +13,8 @@ RUN apt-get install libquadmath0 -y
 RUN apt-get install libssl-dev -y
 RUN pip install --upgrade pip
 RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-RUN pip install numpy==1.16.6
 RUN pip install pillow==6.0.0
+RUN pip install numpy==1.16.6
 RUN pip install scipy==1.2.3
 RUN pip install grakn-client==1.8.1
 RUN pip install google-cloud-storage==1.29.0

@@ -1,5 +1,4 @@
-FROM python:3.9
-RUN sed -i s@/archive.ubuntu.com/@/mirrors.aliyun.com/@g /etc/apt/sources.list
+FROM python:3.9-buster
 RUN apt-get clean
 RUN apt-get update
 RUN apt-get install build-essential -y
@@ -48,9 +47,10 @@ RUN apt-get install vim -y
 RUN apt-get install wget -y
 RUN pip install --upgrade pip
 RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-RUN pip install numpy==1.19.4
-RUN pip install matplotlib==3.3.3
+RUN pip install numpy==1.20.3
+RUN pip install matplotlib==3.4.2
 RUN pip install scikit-image==0.18.0
+RUN pip install matplotlib-venn==0.2
 RUN pip install tsne==0.3.1
 ADD snippet.py snippet.py
 # add CMD command to run your programs here

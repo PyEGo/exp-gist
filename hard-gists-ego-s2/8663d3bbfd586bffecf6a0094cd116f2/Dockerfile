@@ -1,5 +1,4 @@
-FROM python:3.6
-RUN sed -i s@/archive.ubuntu.com/@/mirrors.aliyun.com/@g /etc/apt/sources.list
+FROM python:3.8-buster
 RUN apt-get clean
 RUN apt-get update
 RUN apt-get install build-essential -y

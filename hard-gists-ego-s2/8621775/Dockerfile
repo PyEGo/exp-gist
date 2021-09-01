@@ -1,22 +1,13 @@
-FROM ubuntu:18.04
-
-LABEL maintainer="otc@gmail.com"
-
-ENV DEBIAN_FRONTEND=noninteractive
+FROM python:3.9
+RUN sed -i s@/archive.ubuntu.com/@/mirrors.aliyun.com/@g /etc/apt/sources.list
+RUN apt-get clean
 RUN apt-get update
-RUN apt-get install -y python-dev
-RUN apt-get update
-RUN apt-get install -y python-pip
-# install packages
-RUN apt-get update
-RUN pip install -U pip
-RUN apt-get install -y python-crypto-dbg
-RUN apt-get install -y python-protobuf
-RUN apt-get install -y python-google-auth
-RUN pip install datetime
-RUN apt-get install -y python-pycryptodome
-RUN apt-get install -y python-crypto
-RUN apt-get install -y python-google-apputils
-
+RUN apt-get install libprotobuf17 -y
+RUN pip install --upgrade pip
+RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install pycryptodome==3.10.1
+RUN pip install googleapis-common-protos==1.4.0
+RUN pip install google-cloud-bigquery==0.25.0
 ADD snippet.py snippet.py
+# add CMD command to run your programs here
 CMD python snippet.py

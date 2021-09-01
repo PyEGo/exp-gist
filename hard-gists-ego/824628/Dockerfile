@@ -1,4 +1,4 @@
-FROM python:2.7
+FROM python:2.7-buster
 RUN sed -i s@/archive.ubuntu.com/@/mirrors.aliyun.com/@g /etc/apt/sources.list
 RUN apt-get clean
 RUN apt-get update
@@ -10,7 +10,6 @@ RUN apt-get install libssl-dev -y
 RUN pip install --upgrade pip
 RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 RUN pip install simplejson==3.17.2
-RUN pip install django-storages==1.0
 RUN pip install django==1.11.29
 RUN pip install python-twitter==3.5
 ADD snippet.py snippet.py

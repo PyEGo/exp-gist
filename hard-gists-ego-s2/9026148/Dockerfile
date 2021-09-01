@@ -1,5 +1,4 @@
-FROM python:2.7
-RUN sed -i s@/archive.ubuntu.com/@/mirrors.aliyun.com/@g /etc/apt/sources.list
+FROM python:2.7-buster
 RUN apt-get clean
 RUN apt-get update
 RUN apt-get install build-essential -y
@@ -9,8 +8,8 @@ RUN apt-get install libffi-dev -y
 RUN apt-get install libssl-dev -y
 RUN pip install --upgrade pip
 RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install pytz==2021.1
 RUN pip install gpxpy==1.3.5
-RUN pip install pytz==2020.4
 RUN pip install python-dateutil==2.8.1
 RUN pip install requests==2.25.0
 RUN pip install requests-oauthlib==1.3.0

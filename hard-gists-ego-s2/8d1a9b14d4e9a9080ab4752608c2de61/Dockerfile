@@ -1,5 +1,4 @@
-FROM python:3.9
-RUN sed -i s@/archive.ubuntu.com/@/mirrors.aliyun.com/@g /etc/apt/sources.list
+FROM python:2.7-buster
 RUN apt-get clean
 RUN apt-get update
 RUN apt-get install build-essential -y
@@ -12,11 +11,11 @@ RUN apt-get install libssl-dev -y
 RUN apt-get install tk-dev -y
 RUN pip install --upgrade pip
 RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-RUN pip install pycryptodome==3.9.9
+RUN pip install pycryptodome==3.10.1
+RUN pip install botocore==1.20.70
 RUN pip install ibm-cos-sdk-core==1.2.1
-RUN pip install botocore==1.19.37
 RUN pip install ibm-cos-sdk==1.2.1
-RUN pip install boto3==1.16.37
+RUN pip install boto3==1.17.70
 RUN pip install boto3-meiqia==1.4.5
 RUN pip install botocore-meiqia==1.5.43
 ADD snippet.py snippet.py

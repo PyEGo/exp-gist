@@ -8,8 +8,8 @@ RUN pip install --upgrade pip
 RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 RUN apt-get install python-ujson -y
 RUN apt-get install python-ujson-dbg -y
-RUN apt-get install python-cjson -y
 RUN apt-get install python-cjson-dbg -y
+RUN apt-get install python-cjson -y
 RUN apt-get install python-simplejson -y
 ADD snippet.py snippet.py
 # add CMD command to run your programs here

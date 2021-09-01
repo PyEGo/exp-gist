@@ -1,5 +1,4 @@
-FROM python:2.7
-RUN sed -i s@/archive.ubuntu.com/@/mirrors.aliyun.com/@g /etc/apt/sources.list
+FROM python:2.7-buster
 RUN apt-get clean
 RUN apt-get update
 RUN apt-get install build-essential -y
@@ -17,8 +16,8 @@ RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 RUN pip install simplejson==3.17.2
 RUN pip install fab-classic==1.18.1
 RUN pip install dpxdt==0.1.5
-RUN pip install fabric3==1.14.post1
 RUN pip install fabric==1.14.1
+RUN pip install fabric3==1.14.post1
 RUN pip install cloudlift==1.0.5
 ADD snippet.py snippet.py
 # add CMD command to run your programs here

@@ -8,10 +8,10 @@ RUN cp /usr/bin/pip3 /usr/bin/pip
 RUN apt-get update
 RUN pip install --upgrade pip
 RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-RUN apt-get install python3-simpleitk -y
-RUN apt-get install python3-numpy -y
-RUN apt-get install python3-scipy -y
 RUN apt-get install python3-vtk7 -y
+RUN apt-get install python3-numpy -y
+RUN apt-get install python3-simpleitk -y
+RUN apt-get install python3-scipy -y
 ADD snippet.py snippet.py
 # add CMD command to run your programs here
 CMD python snippet.py

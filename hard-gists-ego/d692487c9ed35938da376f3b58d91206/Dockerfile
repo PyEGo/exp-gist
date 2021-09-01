@@ -1,4 +1,4 @@
-FROM python:3.9
+FROM python:3.9-buster
 RUN sed -i s@/archive.ubuntu.com/@/mirrors.aliyun.com/@g /etc/apt/sources.list
 RUN apt-get clean
 RUN apt-get update
@@ -26,12 +26,12 @@ RUN apt-get install libopencv-viz3.2 -y
 RUN apt-get install libquadmath0 -y
 RUN pip install --upgrade pip
 RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-RUN pip install numpy==1.19.4
-RUN pip install tqdm==4.54.1
-RUN pip install h5py==3.1.0
-RUN pip install opencv-python==4.4.0.46
+RUN pip install numpy==1.20.3
+RUN pip install tqdm==4.60.0
+RUN pip install opencv-python==4.5.2.52
+RUN pip install h5py==3.2.1
 RUN pip install keras==2.4.3
-RUN pip install pandas==1.1.5
+RUN pip install pandas==1.2.4
 ADD snippet.py snippet.py
 # add CMD command to run your programs here
 CMD python snippet.py

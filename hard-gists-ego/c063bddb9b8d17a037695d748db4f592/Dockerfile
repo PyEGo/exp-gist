@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:3.8-buster
 RUN apt-get update
 RUN apt-get install build-essential -y
 RUN apt-get install ca-certificates -y

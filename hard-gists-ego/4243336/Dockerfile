@@ -12,9 +12,9 @@ RUN apt-get install libgl1-mesa-glx -y
 RUN apt-get install libglu1-mesa -y
 RUN pip install --upgrade pip
 RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-RUN apt-get install python3-numpy -y
 RUN apt-get install python3-opengl -y
 RUN apt-get install python3-pygame -y
+RUN apt-get install python3-numpy -y
 RUN pip install pyopengl==3.1.5
 ADD snippet.py snippet.py
 # add CMD command to run your programs here

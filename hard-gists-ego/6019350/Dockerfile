@@ -8,8 +8,8 @@ RUN pip install --upgrade pip
 RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 RUN apt-get install python-sip -y
 RUN apt-get install python-sip-dbg -y
-RUN apt-get install python-pandas -y
 RUN apt-get install python-qt4 -y
+RUN apt-get install python-pandas -y
 ADD snippet.py snippet.py
 # add CMD command to run your programs here
 CMD python snippet.py

@@ -7,9 +7,9 @@ RUN apt-get update
 RUN pip install --upgrade pip
 RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 RUN apt-get install python-rospy -y
-RUN apt-get install python-numpy -y
 RUN apt-get install python-opencv -y
 RUN apt-get install python-actionlib -y
+RUN apt-get install python-numpy -y
 RUN apt-get install python-sensor-msgs -y
 RUN pip install pytesseract==0.3.7
 ADD snippet.py snippet.py

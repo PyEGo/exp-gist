@@ -1,5 +1,4 @@
-FROM python:3.9
-RUN sed -i s@/archive.ubuntu.com/@/mirrors.aliyun.com/@g /etc/apt/sources.list
+FROM python:3.9-buster
 RUN apt-get clean
 RUN apt-get update
 RUN apt-get install build-essential -y
@@ -14,8 +13,8 @@ RUN apt-get install libssl-dev -y
 RUN apt-get install tk-dev -y
 RUN pip install --upgrade pip
 RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-RUN pip install numpy==1.19.4
 RUN pip install zymtest2==0.1.1
+RUN pip install numpy==1.20.3
 RUN pip install keras==2.4.3
 RUN pip install pytest==6.2.1
 ADD snippet.py snippet.py

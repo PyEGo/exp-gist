@@ -1,5 +1,4 @@
-FROM python:3.8
-RUN sed -i s@/archive.ubuntu.com/@/mirrors.aliyun.com/@g /etc/apt/sources.list
+FROM python:2.7-buster
 RUN apt-get clean
 RUN apt-get update
 RUN apt-get install bzip2 -y
@@ -39,9 +38,9 @@ RUN apt-get install xz-utils -y
 RUN apt-get install zlibc -y
 RUN pip install --upgrade pip
 RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-RUN pip install numpy==1.19.4
+RUN pip install numpy==1.16.6
+RUN pip install six==1.16.0
 RUN pip install wrapt==1.8.0
-RUN pip install six==1.15.0
 RUN pip install flask==1.1.2
 RUN pip install syntaxnet-with-tensorflow==0.2
 RUN pip install tensorflow==1.11.0

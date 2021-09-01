@@ -8,8 +8,8 @@ RUN cp /usr/bin/pip3 /usr/bin/pip
 RUN apt-get update
 RUN pip install --upgrade pip
 RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-RUN apt-get install python3-redis -y
 RUN apt-get install python3-webpy -y
+RUN apt-get install python3-redis -y
 ADD snippet.py snippet.py
 # add CMD command to run your programs here
 CMD python snippet.py

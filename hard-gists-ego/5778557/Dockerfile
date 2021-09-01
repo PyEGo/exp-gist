@@ -8,9 +8,9 @@ RUN cp /usr/bin/pip3 /usr/bin/pip
 RUN apt-get update
 RUN pip install --upgrade pip
 RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-RUN apt-get install python3-pyqt4 -y
 RUN apt-get install python3-sip-dbg -y
 RUN apt-get install python3-sip -y
+RUN apt-get install python3-pyqt4 -y
 RUN pip install maya==0.6.1
 ADD snippet.py snippet.py
 # add CMD command to run your programs here

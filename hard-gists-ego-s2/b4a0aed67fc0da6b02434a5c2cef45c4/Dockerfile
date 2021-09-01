@@ -1,5 +1,4 @@
-FROM python:3.9
-RUN sed -i s@/archive.ubuntu.com/@/mirrors.aliyun.com/@g /etc/apt/sources.list
+FROM python:3.9-buster
 RUN apt-get clean
 RUN apt-get update
 RUN apt-get install bind9utils -y
@@ -27,7 +26,7 @@ RUN apt-get install xvfb -y
 RUN apt-get install zlib1g-dev -y
 RUN pip install --upgrade pip
 RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-RUN pip install eventlet==0.30.0
+RUN pip install eventlet==0.31.0
 RUN pip install django-storage-swift==1.2.19
 ADD snippet.py snippet.py
 # add CMD command to run your programs here

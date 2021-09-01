@@ -8,8 +8,8 @@ RUN cp /usr/bin/pip3 /usr/bin/pip
 RUN apt-get update
 RUN pip install --upgrade pip
 RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-RUN apt-get install python3-apt -y
 RUN apt-get install python3-apt-dbg -y
+RUN apt-get install python3-apt -y
 RUN apt-get install python3-prettytable -y
 RUN apt-get install python3-ptable -y
 ADD snippet.py snippet.py

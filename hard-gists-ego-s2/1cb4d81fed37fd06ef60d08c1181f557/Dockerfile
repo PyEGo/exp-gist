@@ -1,4 +1,4 @@
-FROM python:3.6
+FROM python:3.8
 RUN sed -i s@/archive.ubuntu.com/@/mirrors.aliyun.com/@g /etc/apt/sources.list
 RUN apt-get clean
 RUN apt-get update
@@ -16,7 +16,7 @@ RUN apt-get install libssl1.1 -y
 RUN pip install --upgrade pip
 RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 RUN pip install numpy==1.18.5
-RUN pip install matplotlib==3.3.3
+RUN pip install matplotlib==3.4.2
 RUN pip install tensorflow==2.3.1
 ADD snippet.py snippet.py
 # add CMD command to run your programs here

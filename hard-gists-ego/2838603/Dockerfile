@@ -6,9 +6,9 @@ RUN apt-get install python python-pip -y
 RUN apt-get update
 RUN pip install --upgrade pip
 RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+RUN apt-get install python-geopy -y
 RUN apt-get install python-shapely -y
 RUN apt-get install python-gdal -y
-RUN apt-get install python-geopy -y
 RUN pip install geopy==1.23.0
 ADD snippet.py snippet.py
 # add CMD command to run your programs here

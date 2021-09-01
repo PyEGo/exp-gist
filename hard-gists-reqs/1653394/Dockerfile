@@ -1,4 +1,4 @@
-FROM python:2.7
+FROM python:2.7-buster
 RUN pip install --upgrade pip
 RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ADD requirements.txt requirements.txt

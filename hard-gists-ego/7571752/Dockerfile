@@ -1,4 +1,4 @@
-FROM python:2.7
+FROM python:2.7-buster
 RUN apt-get update
 RUN apt-get install build-essential -y
 RUN apt-get install ca-certificates -y

@@ -7,8 +7,8 @@ RUN apt-get install liblapack3 -y
 RUN apt-get install libprotobuf17 -y
 RUN pip install --upgrade pip
 RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-RUN pip install annoy==1.17.0
 RUN pip install numpy==1.19.4
+RUN pip install annoy==1.17.0
 RUN pip install tensorflow==2.4.0
 ADD snippet.py snippet.py
 # add CMD command to run your programs here
